@@ -1,0 +1,161 @@
+@import url(reset.css);
+
+$yellow-500: #FFDE48;
+$yellow-600: #cc972f;
+$black: #000;
+$grey-100: grey;
+
+h1 {
+	font-size: 35px;
+	line-height: 44px;
+}
+h2 {
+	font-size: 30px;
+}
+h3 {
+	font-size: 25px;
+}
+p {
+	font-size: 15px;
+}
+
+* + p {
+	margin-top: 10px;
+}
+
+a {
+	color: $black;
+}
+
+// helpers
+.text-center {
+	text-align: center;
+}
+.text-left {
+	text-align: left;
+}
+.text-right {
+	text-align: right;
+}
+
+@mixin small-caps {
+	font-size: 10px;
+	letter-spacing: 1.3px;	
+	text-transform: uppercase;
+}
+
+/*base styles*/
+html {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: 'Beatrice TRIAL', 'Helvetica', 'Helvetica Neue', 'Arial', 'Sans serif';
+}
+
+.container {
+	max-width: 1700px;
+	margin: auto;
+	width: 85%;
+	padding-top: 60px;
+}
+
+// component styles
+header {
+	position: fixed;
+	width: 100%;
+	z-index: 5;
+}
+
+.intro {
+	margin: auto;
+	text-align: center;
+	width: 1000px;
+	h1 {
+		padding: 160px 0;
+	}
+}
+section.work-section {
+	padding-bottom: 150px;
+	.work-col {
+		a.work {
+			display: block;
+			margin-bottom: 100px;
+			.work-img {
+				position: relative;
+				margin-bottom: 15px;
+				&.work-gusto-careers {
+					display: block;
+					background: grey;
+					height: 500px;
+				}
+			}
+		}
+		span {
+			@include small-caps;
+			color: $grey-100;
+			// position: absolute;
+			// left: -94px;
+			// top: 50%;
+			// transform: rotate(-90deg);
+		}
+		&:last-child {
+			margin-top: 100px;
+
+		}
+	}
+}
+
+footer {
+	background: $yellow-500;
+	bottom: 0;
+	padding: 10px;
+	position: fixed;
+	text-align: center;
+	width: 100%;
+	span {
+		@include small-caps;
+		color: $yellow-600;
+		display: inline;
+		font-weight: 600;
+		padding-top: 3px;
+		&:first-child {
+			float: left;
+		}
+		&:last-child {
+			float: right;
+		}
+		.typewriter {
+		  overflow: hidden; /* Ensures the content is not revealed until the animation */
+		  border-right: 2px solid black; /* The typwriter cursor */
+		  white-space: nowrap; /* Keeps the content on a single line */
+		  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+		  animation: 
+		    typing 2.5s steps(18, end),
+		    blink-caret .75s step-end infinite;
+		}
+
+		/* The typing effect */
+		@keyframes typing {
+		  from { width: 10% }
+		  to { width: 100% }
+		}
+
+		/* The typewriter cursor effect */
+		@keyframes blink-caret {
+		  from, to { border-color: transparent }
+		  50% { border-color: $yellow-600; }
+		}
+	}
+	ul {
+		display: inline;
+		li {
+			display: inline;
+			padding-right: 10px;
+			&:last-child {
+				padding-right: 0;
+			}
+			p {
+				display: inline;
+			}
+		}
+	}
+}
