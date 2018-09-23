@@ -13,7 +13,7 @@ h2 {
 	font-size: 30px;
 }
 h3 {
-	font-size: 25px;
+	font-size: 23px;
 }
 p {
 	font-size: 15px;
@@ -25,6 +25,16 @@ p {
 
 a {
 	color: $black;
+	&:hover {
+		color: $black;
+		text-decoration: none;
+	}
+	&:active,
+	&:focus,
+	&:visited {
+		color: $black;
+		text-decoration: none;
+	}
 }
 
 // helpers
@@ -37,7 +47,9 @@ a {
 .text-right {
 	text-align: right;
 }
-
+.overflow-hidden {
+	overflow: hidden;
+}
 @mixin small-caps {
 	font-size: 10px;
 	letter-spacing: 1.3px;	
@@ -70,7 +82,7 @@ header {
 	text-align: center;
 	width: 1000px;
 	h1 {
-		padding: 160px 0;
+		padding: 130px 0;
 	}
 }
 section.work-section {
@@ -104,12 +116,27 @@ section.work-section {
 	}
 }
 
-footer {
+.bio {
 	background: $yellow-500;
+	height: 100%;
+	overflow: hidden;
+	position: fixed;
+	top: 95%;
+	transition: 450ms ease-out;
+	width: 100%;
+	z-index: 1;
+	&.view {
+		transition: 450ms ease-in;
+		top: 0;
+	}
+}
+
+footer {
+	position: fixed;
 	bottom: 0;
 	padding: 10px;
-	position: fixed;
 	text-align: center;
+	z-index: 2;
 	width: 100%;
 	span {
 		@include small-caps;
@@ -159,3 +186,4 @@ footer {
 		}
 	}
 }
+

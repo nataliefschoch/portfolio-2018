@@ -7,7 +7,7 @@ h2 {
   font-size: 30px; }
 
 h3 {
-  font-size: 25px; }
+  font-size: 23px; }
 
 p {
   font-size: 15px; }
@@ -17,6 +17,12 @@ p {
 
 a {
   color: #000; }
+  a:hover {
+    color: #000;
+    text-decoration: none; }
+  a:active, a:focus, a:visited {
+    color: #000;
+    text-decoration: none; }
 
 .text-center {
   text-align: center; }
@@ -26,6 +32,9 @@ a {
 
 .text-right {
   text-align: right; }
+
+.overflow-hidden {
+  overflow: hidden; }
 
 /*base styles*/
 html {
@@ -49,7 +58,7 @@ header {
   text-align: center;
   width: 1000px; }
   .intro h1 {
-    padding: 160px 0; }
+    padding: 130px 0; }
 
 section.work-section {
   padding-bottom: 150px; }
@@ -71,12 +80,25 @@ section.work-section {
   section.work-section .work-col:last-child {
     margin-top: 100px; }
 
-footer {
+.bio {
   background: #FFDE48;
+  height: 100%;
+  overflow: hidden;
+  position: fixed;
+  top: 95%;
+  transition: 450ms ease-out;
+  width: 100%;
+  z-index: 1; }
+  .bio.view {
+    transition: 450ms ease-in;
+    top: 0; }
+
+footer {
+  position: fixed;
   bottom: 0;
   padding: 10px;
-  position: fixed;
   text-align: center;
+  z-index: 2;
   width: 100%; }
   footer span {
     font-size: 10px;

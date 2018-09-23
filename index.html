@@ -15,26 +15,36 @@
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-59157502-1"></script>
   <script>
+    // google analytics
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
     gtag('config', 'UA-59157502-1');
+
+    // page interactions
   </script>
 </head>
 
+<a name='nav-anchor'></a>
 <header>
   <section>
     <div class='container'>
       <div class='row'>
         <div class='col-md-4 text-left'>
-          <h3>Work</h3>
+          <a class='home-link' href='#work-anchor'>
+            <h3>Work</h3>
+          </a>
         </div>
         <div class='col-md-4 text-center'>
-          <h3>Natalie Schoch</h3>
+          <a class='home-link' href='#nav-anchor'>
+            <h3>Natalie Schoch</h3>
+          </a>
         </div>
         <div class='col-md-4 text-right'>
-          <h3>Contact</h3>
+          <a class='bio-link'href='#'>
+            <h3>About</h3>
+          </a>
         </div>
       </div>
     </div>
@@ -50,6 +60,8 @@
         </h1></div>
     </div>
   </section>
+
+  <a name='work-anchor'></a>
   <section class='work-section'>
     <div class='container'>
       <div class='row'>
@@ -85,6 +97,24 @@
     </div>
   </section>
 </body>
+
+<section class='bio'>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-md-4'>
+        <img src='https://picsum.photos/200/300'>
+      </div>
+      <div class='col-md-8'>
+        <h3>
+          I'm a Bay Area native living in San Francisco, CA. I love to work across all graphic mediums but have been playing with code since the days of Myspace and Neopets. I can generally be found listening to too much music, drinking cappuccinos, and overwatering my plant family.
+        </h3>
+        <h3>
+          The best way to contact me is email. But you can also check out select design work on Dribbble, peek at my code on Github, or see my full work history on Linkedin. I’m kind of on Twitter, but honestly... I'm just not sure I have it in me.
+        </h3>
+      </div>
+    </div>
+  </div>
+</section>
 
 <footer>
   <div class='row'>
@@ -124,16 +154,55 @@
   </div>
 </footer>
 
+<script>
 
-<!-- <footer>
-  <div class='container'>
-    <div class='row'>
-      <div class='col-md-12'>
-        <span class='copyright'>
-          Natalie Schoch &copy; 2018
-          <span class='hidden-copy grey-300'>Hand-coded with love</span>
-        </span>  
-      </div>
-    </div>
-  </div>
-</footer> -->
+  // bio interaction
+  $(".bio-link").click(function(e){
+    e.preventDefault();
+    $(".bio").addClass('view');
+    $("#portfolio").addClass('overflow-hidden');
+  });
+
+  $(".home-link").click(function(){
+    $(".bio").removeClass('view');
+    $("#portfolio").removeClass('overflow-hidden');
+  });
+
+
+  // Select all links with hashes
+  $('a[href*="#"]')
+    // Remove links that don't actually link to anything
+    .not('[href="#"]')
+    .not('[href="#0"]')
+    .click(function(event) {
+      // On-page links
+      if (
+        location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+        && 
+        location.hostname == this.hostname
+      ) {
+        // Figure out element to scroll to
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+        // Does a scroll target exist?
+        if (target.length) {
+          // Only prevent default if animation is actually gonna happen
+          event.preventDefault();
+          $('html, body').animate({
+            scrollTop: target.offset().top
+          }, 1000, function() {
+            // Callback after animation
+            // Must change focus!
+            var $target = $(target);
+            $target.focus();
+            if ($target.is(":focus")) { // Checking if the target was focused
+              return false;
+            } else {
+              $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+              $target.focus(); // Set focus again
+            };
+          });
+        }
+      }
+    });
+</script>
