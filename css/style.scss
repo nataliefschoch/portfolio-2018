@@ -1,30 +1,73 @@
 @import url(reset.css);
 
+// variables
 $yellow-500: #FFDE48;
 $yellow-600: #cc972f;
 $black: #000;
 $grey-100: grey;
 
+// base styles
+html {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: $black;
+	font-family: 'Beatrice TRIAL', 'Helvetica', 'Helvetica Neue', 'Arial', 'Sans serif';
+}
+
+.container {
+	margin: auto;
+	width: 95%;
+	padding-top: 20px;
+	@media (min-width: 728px) {
+  	max-width: 1700px;
+		width: 90%;
+		padding-top: 30px;
+	}
+}
+
 h1 {
-	font-size: 35px;
-	line-height: 44px;
+	font-size: 18px;
+	line-height: 24px;
+	@media (min-width: 728px) {
+  	font-size: 35px;
+		line-height: 44px;
+	}
 }
 h2 {
 	font-size: 30px;
 }
 h3 {
-	font-size: 23px;
+	font-size: 13px;
+		@media (min-width: 728px) {
+  	font-size: 23px;
+	}
+
 }
 p {
-	font-size: 15px;
+	font-size: 12px;
+	@media (min-width: 728px) {
+  	font-size: 20px;
+  	line-height: 27px;
+	}
+	&.p-lrg {
+		font-size: 12px;
+    line-height: 19px;
+    @media (min-width: 728px) {
+    	font-size: 19px;
+	    line-height: 30px;
+	  }
+		@media (min-width: 1100px) {
+			font-size: 23px;
+			line-height: 34px;
+		}
+	}
 }
-
 * + p {
 	margin-top: 10px;
 }
-
 a {
 	color: $black;
+	text-decoration: none;
 	&:hover {
 		color: $black;
 		text-decoration: none;
@@ -34,6 +77,21 @@ a {
 	&:visited {
 		color: $black;
 		text-decoration: none;
+	}
+}
+
+.intro,
+.bio {
+	a {
+		text-decoration: underline;
+		&:hover {
+			text-decoration: underline;
+		}
+		&:active,
+		&:focus,
+		&:visited {
+			text-decoration: underline;
+		}
 	}
 }
 
@@ -56,33 +114,24 @@ a {
 	text-transform: uppercase;
 }
 
-/*base styles*/
-html {
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	font-family: 'Beatrice TRIAL', 'Helvetica', 'Helvetica Neue', 'Arial', 'Sans serif';
-}
-
-.container {
-	max-width: 1700px;
-	margin: auto;
-	width: 85%;
-	padding-top: 60px;
-}
-
 // component styles
+
 header {
 	position: fixed;
 	width: 100%;
-	z-index: 5;
+	z-index: 3;
 }
 
 .intro {
 	margin: auto;
 	text-align: center;
-	width: 1000px;
+	max-width: 1000px;
+	width: 100%;
 	h1 {
-		padding: 130px 0;
+		padding: 50px 0;
+		@media (min-width: 728px) {
+    	padding: 130px 0;
+  	}
 	}
 }
 section.work-section {
@@ -92,22 +141,23 @@ section.work-section {
 			display: block;
 			margin-bottom: 100px;
 			.work-img {
+				// overflow: hidden;
 				position: relative;
 				margin-bottom: 15px;
-				&.work-gusto-careers {
-					display: block;
-					background: grey;
-					height: 500px;
+				img {
+					transition: all 350ms ease;
+				}
+				&:hover {
+					img {
+						transform: scale(1.03);
+						transition: all 350ms ease;
+					}
 				}
 			}
 		}
 		span {
 			@include small-caps;
 			color: $grey-100;
-			// position: absolute;
-			// left: -94px;
-			// top: 50%;
-			// transform: rotate(-90deg);
 		}
 		&:last-child {
 			margin-top: 100px;
@@ -120,11 +170,21 @@ section.work-section {
 	background: $yellow-500;
 	height: 100%;
 	overflow: hidden;
+	padding-top: 7%;
 	position: fixed;
-	top: 95%;
+	top: 94%;
 	transition: 450ms ease-out;
 	width: 100%;
 	z-index: 1;
+	p {
+		text-indent: 50px;
+		@media (min-width: 728px) {
+			padding-left: 60px;
+		}
+	}
+	span {
+		font-size: 15px;
+	}
 	&.view {
 		transition: 450ms ease-in;
 		top: 0;
@@ -134,16 +194,19 @@ section.work-section {
 footer {
 	position: fixed;
 	bottom: 0;
-	padding: 10px;
+	padding: 5px;
 	text-align: center;
 	z-index: 2;
 	width: 100%;
+	p {
+		font-size: 13px;
+	}
 	span {
 		@include small-caps;
 		color: $yellow-600;
 		display: inline;
 		font-weight: 600;
-		padding-top: 3px;
+		padding: 8px 5px;
 		&:first-child {
 			float: left;
 		}
