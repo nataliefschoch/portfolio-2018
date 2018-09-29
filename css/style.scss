@@ -4,10 +4,18 @@
 $yellow-500: #FFDE48;
 $yellow-600: #cc972f;
 $black: #000;
+$white: #fff;
 $grey-100: grey;
 
+@mixin small-caps {
+	font-size: 10px;
+	letter-spacing: 1.3px;	
+	text-transform: uppercase;
+}
+
 // base styles
-html {
+html,
+body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	color: $black;
@@ -18,6 +26,8 @@ html {
 	margin: auto;
 	width: 95%;
 	padding-top: 20px;
+	padding-left: 0;
+	padding-right: 0;
 	@media (min-width: 728px) {
   	max-width: 1700px;
 		width: 90%;
@@ -28,6 +38,7 @@ html {
 h1 {
 	font-size: 18px;
 	line-height: 24px;
+	margin-bottom: 15px;
 	@media (min-width: 728px) {
   	font-size: 35px;
 		line-height: 44px;
@@ -35,9 +46,12 @@ h1 {
 }
 h2 {
 	font-size: 30px;
+	line-height: 39px;
+	margin-bottom: 15px;
 }
 h3 {
 	font-size: 13px;
+	margin-bottom: 12px;
 		@media (min-width: 728px) {
   	font-size: 23px;
 	}
@@ -46,14 +60,14 @@ h3 {
 p {
 	font-size: 12px;
 	@media (min-width: 728px) {
-  	font-size: 20px;
-  	line-height: 27px;
+	  	font-size: 16px;
+	  	line-height: 27px;
 	}
 	&.p-lrg {
 		font-size: 12px;
-    line-height: 19px;
+	    line-height: 19px;
     @media (min-width: 728px) {
-    	font-size: 19px;
+    	font-size: 18px;
 	    line-height: 30px;
 	  }
 		@media (min-width: 1100px) {
@@ -108,60 +122,19 @@ a {
 .overflow-hidden {
 	overflow: hidden;
 }
-@mixin small-caps {
-	font-size: 10px;
-	letter-spacing: 1.3px;	
-	text-transform: uppercase;
+.small-caps {
+	@include small-caps;
 }
 
-// component styles
-
+// shared component styles
 header {
-	position: fixed;
+	position: absolute;
 	width: 100%;
-	z-index: 3;
-}
-
-.intro {
-	margin: auto;
-	text-align: center;
-	max-width: 1000px;
-	width: 100%;
-	h1 {
-		padding: 50px 0;
-		@media (min-width: 728px) {
-    	padding: 130px 0;
-  	}
-	}
-}
-section.work-section {
-	padding-bottom: 150px;
-	.work-col {
-		a.work {
-			display: block;
-			margin-bottom: 100px;
-			.work-img {
-				// overflow: hidden;
-				position: relative;
-				margin-bottom: 15px;
-				img {
-					transition: all 350ms ease;
-				}
-				&:hover {
-					img {
-						transform: scale(1.03);
-						transition: all 350ms ease;
-					}
-				}
-			}
-		}
-		span {
-			@include small-caps;
-			color: $grey-100;
-		}
-		&:last-child {
-			margin-top: 100px;
-
+	z-index: 5;
+	.container {
+		padding: 10px 0;
+		h3 {
+			font-size: 20px;
 		}
 	}
 }
@@ -172,10 +145,13 @@ section.work-section {
 	overflow: hidden;
 	padding-top: 7%;
 	position: fixed;
-	top: 94%;
+	top: 100%;
 	transition: 450ms ease-out;
 	width: 100%;
 	z-index: 1;
+	img {
+		width: 300px;
+	}
 	p {
 		text-indent: 50px;
 		@media (min-width: 728px) {
@@ -192,12 +168,16 @@ section.work-section {
 }
 
 footer {
+	background: $yellow-500;
 	position: fixed;
 	bottom: 0;
 	padding: 5px;
 	text-align: center;
 	z-index: 2;
 	width: 100%;
+	.container {
+		padding: 0;
+	}
 	p {
 		font-size: 13px;
 	}
@@ -247,6 +227,88 @@ footer {
 				display: inline;
 			}
 		}
+	}
+}
+
+// PAGE SPECICS ////////////////////
+
+// home 
+.intro {
+	margin: auto;
+	text-align: center;
+	max-width: 1000px;
+	width: 100%;
+	h1 {
+		padding: 50px 0;
+		@media (min-width: 728px) {
+    	padding: 130px 0;
+  	}
+	}
+}
+
+section.work-section {
+	padding-bottom: 150px;
+	.work-col {
+		a.work {
+			display: block;
+			margin-bottom: 100px;
+			.work-img {
+				// overflow: hidden;
+				position: relative;
+				margin-bottom: 20px;
+				img {
+					transition: all 350ms ease;
+				}
+				&:hover {
+					img {
+						transform: scale(1.03);
+						transition: all 350ms ease;
+					}
+				}
+			}
+		}
+		span {
+			@include small-caps;
+			display: block;
+			color: $grey-100;
+			margin-top: 10px;
+		}
+		&:first-child {
+			padding-right: 30px;
+		}
+		&:last-child {
+			margin-top: 100px;
+			padding-left: 30px;
+		}
+	}
+}
+
+// work pages
+
+.work-body {
+	padding-top: 100px;
+	p {
+		&.p-lrg {
+			text-indent: 50px;
+		}
+		a {
+			text-decoration: underline;
+		}
+	}
+	.container {
+		padding-top: 110px;
+		padding-bottom: 120px;
+	}
+	.work-intro {
+		background: #fae578;
+	}
+	.affinity-badges {
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7abcff+0,60abf8+44,4096ee+100;Blue+3D+%2314 */
+background: #7abcff; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #7abcff 0%, #60abf8 44%, #4096ee 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', endColorstr='#4096ee',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 	}
 }
 
