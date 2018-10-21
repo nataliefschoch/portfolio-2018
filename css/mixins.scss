@@ -1,0 +1,7 @@
+@mixin small-caps {
+    font-weight: 600;
+	font-size: 0.75em;
+	letter-spacing: 1.3px;
+	opacity: 0.5;	
+	text-transform: uppercase;
+}

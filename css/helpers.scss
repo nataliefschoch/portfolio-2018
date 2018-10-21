@@ -1,0 +1,16 @@
+// helpers
+.text-center {
+	text-align: center;
+}
+.text-left {
+	text-align: left;
+}
+.text-right {
+	text-align: right;
+}
+.overflow-hidden {
+	overflow: hidden;
+}
+.small-caps {
+	@include small-caps;
+}

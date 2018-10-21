@@ -1,0 +1,21 @@
+
+// fonts
+@font-face {
+  font-family: 'atlas-grotesk-med';
+  src: url('../fonts/AtlasGrotesk-Medium-Web.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/AtlasGrotesk-Medium-Web.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/AtlasGrotesk-Medium-Web.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/AtlasGrotesk-Medium-Web.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/AtlasGrotesk-Medium-Web.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/AtlasGrotesk-Medium-Web.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'atlas-grotesk-reg';
+  src: url('../fonts/AtlasGrotesk-Regular-Web.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/AtlasGrotesk-Regular-Web.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/AtlasGrotesk-Regular-Web.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/AtlasGrotesk-Regular-Web.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/AtlasGrotesk-Regular-Web.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/AtlasGrotesk-Regular-Web.svg#svgFontName') format('svg'); /* Legacy iOS */
+}

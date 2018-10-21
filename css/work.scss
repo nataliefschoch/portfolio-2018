@@ -1,0 +1,36 @@
+
+// work pages
+
+.work {
+	padding-top: 70px;
+	a {
+		font-family: 'Freight';
+		font-size: 1.2em;
+		// text-decoration: underline;
+		&:hover {
+			// text-decoration: underline;
+		}
+		&:active,
+		&:focus,
+		&:visited {
+			// text-decoration: underline;
+		}
+	}
+	.container {
+		padding-top: 110px;
+		padding-bottom: 120px;
+	}
+	.work-intro {
+		background: #30a9cc;
+	}
+	&.gusto-careers {
+		.affinity-badges {
+			/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#81d4ee+0,01b6da+100 */
+			background: #81d4ee; /* Old browsers */
+			background: -moz-linear-gradient(-45deg, #81d4ee 0%, #01b6da 100%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(-45deg, #81d4ee 0%,#01b6da 100%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(135deg, #81d4ee 0%,#01b6da 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#81d4ee', endColorstr='#01b6da',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+		}
+	}
+}
