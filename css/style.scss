@@ -1,5 +1,26 @@
 @import url(reset.css);
 
+// fonts
+@font-face {
+  font-family: 'atlas-grotesk-med';
+  src: url('../fonts/AtlasGrotesk-Medium-Web.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/AtlasGrotesk-Medium-Web.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/AtlasGrotesk-Medium-Web.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/AtlasGrotesk-Medium-Web.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/AtlasGrotesk-Medium-Web.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/AtlasGrotesk-Medium-Web.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'atlas-grotesk-reg';
+  src: url('../fonts/AtlasGrotesk-Regular-Web.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/AtlasGrotesk-Regular-Web.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/AtlasGrotesk-Regular-Web.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/AtlasGrotesk-Regular-Web.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/AtlasGrotesk-Regular-Web.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/AtlasGrotesk-Regular-Web.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
 // variables
 $yellow-500: #FFDE48;
 $yellow-600: #cc972f;
@@ -8,6 +29,7 @@ $white: #fff;
 $grey-100: grey;
 
 @mixin small-caps {
+	font-family: "Suisse Int'l Mono Trial";
 	font-size: 10px;
 	letter-spacing: 1.3px;	
 	text-transform: uppercase;
@@ -19,7 +41,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	color: $black;
-	font-family: 'Beatrice TRIAL', 'Helvetica', 'Helvetica Neue', 'Arial', 'Sans serif';
+	font-family: 'atlas-grotesk-reg', 'Helvetica', 'Helvetica Neue', 'Arial', 'Sans serif';
 }
 
 .container {
@@ -40,8 +62,8 @@ h1 {
 	line-height: 24px;
 	margin-bottom: 15px;
 	@media (min-width: 728px) {
-  	font-size: 35px;
-		line-height: 44px;
+  	font-size: 29px;
+		line-height: 39px;
 	}
 }
 h2 {
@@ -79,6 +101,7 @@ p {
 * + p {
 	margin-top: 10px;
 }
+
 a {
 	color: $black;
 	text-decoration: none;
@@ -91,21 +114,6 @@ a {
 	&:visited {
 		color: $black;
 		text-decoration: none;
-	}
-}
-
-.intro,
-.bio {
-	a {
-		text-decoration: underline;
-		&:hover {
-			text-decoration: underline;
-		}
-		&:active,
-		&:focus,
-		&:visited {
-			text-decoration: underline;
-		}
 	}
 }
 
@@ -128,13 +136,17 @@ a {
 
 // shared component styles
 header {
-	position: absolute;
+	position: fixed;
 	width: 100%;
 	z-index: 5;
+	padding-top: 20px;
 	.container {
 		padding: 10px 0;
 		h3 {
 			font-size: 20px;
+		}
+		.nav-link {
+			font-family: 'freight';
 		}
 	}
 }
@@ -153,7 +165,6 @@ header {
 		width: 300px;
 	}
 	p {
-		text-indent: 50px;
 		@media (min-width: 728px) {
 			padding-left: 60px;
 		}
@@ -181,40 +192,6 @@ footer {
 	p {
 		font-size: 13px;
 	}
-	span {
-		@include small-caps;
-		color: $yellow-600;
-		display: inline;
-		font-weight: 600;
-		padding: 8px 5px;
-		&:first-child {
-			float: left;
-		}
-		&:last-child {
-			float: right;
-		}
-		.typewriter {
-		  overflow: hidden; /* Ensures the content is not revealed until the animation */
-		  border-right: 2px solid black; /* The typwriter cursor */
-		  white-space: nowrap; /* Keeps the content on a single line */
-		  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-		  animation: 
-		    typing 2.5s steps(18, end),
-		    blink-caret .75s step-end infinite;
-		}
-
-		/* The typing effect */
-		@keyframes typing {
-		  from { width: 10% }
-		  to { width: 100% }
-		}
-
-		/* The typewriter cursor effect */
-		@keyframes blink-caret {
-		  from, to { border-color: transparent }
-		  50% { border-color: $yellow-600; }
-		}
-	}
 	ul {
 		display: inline;
 		li {
@@ -233,15 +210,33 @@ footer {
 // PAGE SPECICS ////////////////////
 
 // home 
+
+.intro,
+.bio {
+	a {
+		font-family: 'Freight';
+		font-size: 1.2em;
+		// text-decoration: underline;
+		&:hover {
+			// text-decoration: underline;
+		}
+		&:active,
+		&:focus,
+		&:visited {
+			// text-decoration: underline;
+		}
+	}
+}
+
 .intro {
 	margin: auto;
 	text-align: center;
-	max-width: 1000px;
+	max-width: 900px;
 	width: 100%;
 	h1 {
 		padding: 50px 0;
 		@media (min-width: 728px) {
-    	padding: 130px 0;
+    	padding: 130px 0 40px;
   	}
 	}
 }
@@ -249,11 +244,10 @@ footer {
 section.work-section {
 	padding-bottom: 150px;
 	.work-col {
-		a.work {
+		.work {
 			display: block;
 			margin-bottom: 100px;
 			.work-img {
-				// overflow: hidden;
 				position: relative;
 				margin-bottom: 20px;
 				img {
@@ -261,7 +255,7 @@ section.work-section {
 				}
 				&:hover {
 					img {
-						transform: scale(1.03);
+						transform: scale(1.02);
 						transition: all 350ms ease;
 					}
 				}
@@ -273,12 +267,12 @@ section.work-section {
 			color: $grey-100;
 			margin-top: 10px;
 		}
-		&:first-child {
-			padding-right: 30px;
-		}
-		&:last-child {
-			margin-top: 100px;
-			padding-left: 30px;
+	}
+	@media (min-width: 728px) {
+		.work-col:first-child {
+			.work:last-of-type {
+				margin-top: 50px;
+			}
 		}
 	}
 }
@@ -303,12 +297,12 @@ section.work-section {
 		background: #fae578;
 	}
 	.affinity-badges {
-		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7abcff+0,60abf8+44,4096ee+100;Blue+3D+%2314 */
-background: #7abcff; /* Old browsers */
-background: -moz-linear-gradient(-45deg, #7abcff 0%, #60abf8 44%, #4096ee 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(-45deg, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(135deg, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', endColorstr='#4096ee',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#81d4ee+0,01b6da+100 */
+		background: #81d4ee; /* Old browsers */
+		background: -moz-linear-gradient(-45deg, #81d4ee 0%, #01b6da 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(-45deg, #81d4ee 0%,#01b6da 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(135deg, #81d4ee 0%,#01b6da 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#81d4ee', endColorstr='#01b6da',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 	}
 }
 
