@@ -32,12 +32,12 @@
       <div class='container'>
         <div class='row'>
           <div class='nav-link col-xs-3 text-left'>
-            <a class='home-link' href='index.php'>
+            <a class='home-link' href='index.php#work-anchor'>
               <h3>Work</h3>
             </a>
           </div>
           <div class='col-xs-6 text-center'>
-            <a class='home-link' href='index.php'>
+            <a class='home-link' href='index.php#nav-anchor'>
               <h3>Natalie Schoch</h3>
             </a>
           </div>

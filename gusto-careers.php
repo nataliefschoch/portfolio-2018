@@ -6,33 +6,26 @@
       <div class='container'>
         <div class='row'>
           <div class='col-md-6 col-md-offset-3'>
-            <h4>
-              Gusto Careers
-            </h4>
-            <h1>
-              <a href='#'>Building an experience</a> for what it's like to work at a company who helps build great places to work.
-            </h1>
-            <span class='small-caps'>Design &amp; Art Direction</span>
-            <p>Gusto embarked on a redesign of it’s careers page. We wanted to update the page to reflect the current look and feel of the brand and to improve the user experience for applying candidates. As the lead designer on the project, I worked with copywriters, illustrators, photographers, and individuals from our recruiting team to build an experience that reflected Gusto’s culture, and made it easy and delightful for candidates to apply.</p>
+            <div class='work-intro'>
+              <h3>
+                Gusto Careers
+              </h3>
+              <h1>
+                <a href='#'>Building an experience</a> for what it's like to work at a company who helps build great places to work.
+              </h1>
+              <span class='small-caps'>Design &amp; Art Direction</span>
+              <p>Gusto embarked on a redesign of it’s careers page. We wanted to update the page to reflect the current look and feel of the brand and to improve the user experience for applying candidates. As the lead designer on the project, I worked with copywriters, illustrators, photographers, and individuals from our recruiting team to build an experience that reflected Gusto’s culture, and made it easy and delightful for candidates to apply.</p>
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <section class='work-intro'>
+    <section class='gusto-careers-screens'>
       <div class='container'>
         <div class='row'>
-          <div class='col-md-4'>
-            <img src='../images/img-work-gusto-careers--intro-2.jpg'/, class='img-responsive', alt='', title=''>
-          </div>
-          <div class='col-md-4'>
-            
-            <img src='../images/img-work-gusto-careers--intro-1.jpg'/, class='img-responsive', alt='', title=''>
-            
-          </div>
-          <div class='col-md-4'>
-            
-            <img src='../images/img-work-gusto-careers--intro-3.jpg'/, class='img-responsive', alt='', title=''>
-          </div>
+          <img src='../images/img-work-gusto-careers--intro-2.jpg', class='img-responsive', alt='', title=''>
+          <img src='../images/img-work-gusto-careers--intro-1.jpg', class='img-responsive', alt='', title=''>
+          <img src='../images/img-work-gusto-careers--intro-3.jpg', class='img-responsive', alt='', title=''>
         </div>
       </div>
     </section>

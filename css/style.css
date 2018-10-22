@@ -112,8 +112,15 @@ a {
   .work .container {
     padding-top: 110px;
     padding-bottom: 120px; }
-  .work .work-intro {
+  .work .work-intro p {
+    padding-top: 30px; }
+  .work.gusto-careers section.gusto-careers-screens {
     background: #30a9cc; }
+    .work.gusto-careers section.gusto-careers-screens img {
+      float: left;
+      display: inline;
+      max-width: 600px;
+      width: 100%; }
   .work.gusto-careers .affinity-badges {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#81d4ee+0,01b6da+100 */
     background: #81d4ee;
