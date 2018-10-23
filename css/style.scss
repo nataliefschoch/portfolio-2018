@@ -8,7 +8,7 @@
 
 // Shared Component Styles
 header {
-	position: fixed;
+	// position: fixed;
 	width: 100%;
 	z-index: 5;
 	padding-top: 20px;
@@ -17,8 +17,9 @@ header {
 		h3 {
 			font-size: 20px;
 		}
-		.nav-link {
+		a.nav-link {
 			font-family: 'freight';
+			font-size: 1.2em;
 		}
 	}
 }

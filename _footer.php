@@ -5,17 +5,17 @@
         <ul>
           <li>
             <p>
-              <a href='#'>Dribbble</a>
+              <a href='https://dribbble.com/nataliefschoch', target='_blank'>Dribbble</a>
             </p>
           </li>
           <li>
             <p>
-              <a href='#'>Medium</a>
+              <a href='https://medium.com/@nataliefschoch', target='_blank'>Medium</a>
             </p>
           </li>
           <li>
             <p>
-              <a href='#'>Github</a>
+              <a href='https://github.com/nataliefschoch', target='_blank'>Github</a>
             </p>
           </li>
           <li>
@@ -25,7 +25,7 @@
           </li>
           <li>
             <p>
-              <a href='#'>Twitter</a>
+              <a href='https://twitter.com/nataliefschoch', target='_blank'>Twitter</a>
             </p>
           </li>
         </ul>

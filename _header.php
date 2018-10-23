@@ -42,7 +42,7 @@
             </a>
           </div>
           <div class='nav-link col-xs-3 text-right'>
-            <a class='bio-link'href='#'>
+            <a class='bio-link' href='#'>
               <h3>About</h3>
             </a>
           </div>

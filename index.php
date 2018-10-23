@@ -32,7 +32,7 @@
             <div class='work-img'>
               <img src='images/img-work-wordsmith.gif', class='img-responsive', alt='Natalie Schoch, Wordsmith Chrome Extension', title='Wordsmith Chrome Extension'/>
             </div>
-            <h3>Gusto &mdash; End of Year Campaign</h3>
+            <h3>Wordsmith</h3>
             <span>Design &amp; Development</span>
           </a>
         </div>
@@ -49,9 +49,9 @@
           </a>
         </div>
         <div class='col-md-4'>
-          <a class='work'href='#'>
+          <a class='work' href='probono.php'>
             <div class='work-img'>
-              <img src='images/img-work-VAD.jpg', class='img-responsive', alt='Natalie Schoch, Wordsmith Chrome Extension', title='Wordsmith Chrome Extension'/>
+              <img src='images/img-work-VAD.jpg', class='img-responsive', alt='Natalie Schoch, Pro-bono projects', title='Pro-bono projects'/>
             </div>
             <h3>Pro-bono Projects</h3>
             <span>Design</span>

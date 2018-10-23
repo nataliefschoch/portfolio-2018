@@ -6,6 +6,11 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	color: $black;
 	font-family: 'atlas-grotesk-reg', 'Helvetica', 'Helvetica Neue', 'Arial', 'Sans serif';
+	font-size: 13px;
+	@media (min-width: 728px) {
+	  	font-size: 18px;
+	  	line-height: 30px;
+	}
 }
 
 .container {
@@ -87,3 +92,4 @@ a {
 		text-decoration: none;
 	}
 }
+
