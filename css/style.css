@@ -113,6 +113,9 @@ a {
 .relative {
   position: relative; }
 
+.inline-block {
+  display: inline-block; }
+
 .block {
   display: block; }
 
@@ -1373,13 +1376,32 @@ a {
     /* IE6-9 fallback on horizontal gradient */ }
 
 header {
+  height: 100%;
   width: 100%;
-  z-index: 5;
-  padding-top: 20px; }
+  z-index: 3;
+  padding-top: 20px;
+  position: fixed; }
   header .container {
-    padding: 10px 0; }
+    padding: 10px 0;
+    position: relative;
+    height: 100%; }
     header .container h3 {
-      font-size: 20px; }
+      font-size: 16px; }
+    header .container span {
+      position: absolute;
+      z-index: 4; }
+    header .container span:first-of-type {
+      left: 0;
+      top: 0; }
+    header .container span:nth-child(2) {
+      right: 0;
+      top: 0; }
+    header .container span:nth-child(3) {
+      right: 0;
+      bottom: 0; }
+    header .container span:nth-child(4) {
+      left: 0;
+      bottom: 0; }
     header .container a.nav-link {
       font-family: 'freight';
       font-size: 1.2em; }
@@ -1433,10 +1455,7 @@ footer {
   font-size: 1.2em; }
 
 .intro {
-  margin: auto;
-  text-align: center;
-  max-width: 900px;
-  width: 100%; }
+  margin: auto; }
   .intro h1 {
     padding: 50px 0; }
     @media (min-width: 728px) {
@@ -1445,26 +1464,17 @@ footer {
 
 section.work-section {
   padding-bottom: 150px; }
-  section.work-section .work-col .work {
+  section.work-section .work-col a.work {
     display: block;
     margin-bottom: 100px; }
-    section.work-section .work-col .work .work-img {
+    section.work-section .work-col a.work .work-img {
       position: relative;
       margin-bottom: 20px; }
-      section.work-section .work-col .work .work-img img {
+      section.work-section .work-col a.work .work-img img {
         transition: all 350ms ease; }
-      section.work-section .work-col .work .work-img:hover img {
+      section.work-section .work-col a.work .work-img:hover img {
         transform: scale(1.02);
         transition: all 350ms ease; }
-  section.work-section .work-col span {
-    font-weight: 600;
-    font-size: 0.75em;
-    letter-spacing: 1.3px;
-    opacity: 0.4;
-    text-transform: uppercase;
-    display: block;
-    color: grey;
-    margin-top: 10px; }
   @media (min-width: 728px) {
     section.work-section .work-col:first-child .work:last-of-type {
       margin-top: 50px; } }

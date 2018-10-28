@@ -30,23 +30,31 @@
   <header>
     <section>
       <div class='container'>
-        <div class='row'>
-          <div class='nav-link col-xs-3 text-left'>
+        
+          <span>
+            <a class='home-link' href='index.php#work-anchor'>
+              <h3>Natalie Schoch</h3>
+            </a>
+          </span>
+          
+          <span>
+            <a class='home-link' href='index.php#work-anchor'>
+              <h3>About</h3>
+            </a>
+          </span>
+
+          <span>
             <a class='home-link' href='index.php#work-anchor'>
               <h3>Work</h3>
             </a>
-          </div>
-          <div class='col-xs-6 text-center'>
-            <a class='home-link' href='index.php#nav-anchor'>
-              <h3>Natalie Schoch</h3>
+          </span>
+
+          <span>
+            <a class='home-link' href='index.php#work-anchor'>
+              <h3>Email</h3>
             </a>
-          </div>
-          <div class='nav-link col-xs-3 text-right'>
-            <a class='bio-link' href='#'>
-              <h3>About</h3>
-            </a>
-          </div>
-        </div>
+          </span>
+        
       </div>
     </section>
   </header>

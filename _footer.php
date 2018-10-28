@@ -1,4 +1,4 @@
-<footer>
+<!-- <footer>
   <div class='container'>
     <div class='row'>
       <div class='col-md-12'>
@@ -29,10 +29,7 @@
             </p>
           </li>
         </ul>
-        <!-- <span class='hidden-xs'>
-          <div class='typewriter'>Hand-coded with love</div></span>
-          </span> -->
       </div>
     </div>
   </div>
-</footer>
+</footer> -->

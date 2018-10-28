@@ -8,14 +8,37 @@
 
 // Shared Component Styles
 header {
-	// position: fixed;
+	height: 100%;
 	width: 100%;
-	z-index: 5;
+	z-index: 3;
 	padding-top: 20px;
+	position: fixed;
 	.container {
 		padding: 10px 0;
+		position: relative;
+		height: 100%;
 		h3 {
-			font-size: 20px;
+			font-size: 16px;
+		}
+		span {
+			position: absolute;
+			z-index: 4;
+		}
+		span:first-of-type {
+			left: 0;
+			top: 0;
+		}
+		span:nth-child(2) {
+			right: 0;
+			top: 0;
+		}
+		span:nth-child(3) {
+			right: 0;
+			bottom: 0;
+		}
+		span:nth-child(4) {
+			left: 0;
+			bottom: 0;
 		}
 		a.nav-link {
 			font-family: 'freight';
@@ -103,9 +126,9 @@ footer {
 
 .intro {
 	margin: auto;
-	text-align: center;
-	max-width: 900px;
-	width: 100%;
+	// text-align: center;
+	// max-width: 900px;
+	// width: 100%;
 	h1 {
 		padding: 50px 0;
 		@media (min-width: 728px) {
@@ -117,7 +140,7 @@ footer {
 section.work-section {
 	padding-bottom: 150px;
 	.work-col {
-		.work {
+		a.work {
 			display: block;
 			margin-bottom: 100px;
 			.work-img {
@@ -133,12 +156,6 @@ section.work-section {
 					}
 				}
 			}
-		}
-		span {
-			@include small-caps;
-			display: block;
-			color: $grey-100;
-			margin-top: 10px;
 		}
 	}
 	@media (min-width: 728px) {
