@@ -10,7 +10,7 @@
 header {
 	height: 100%;
 	width: 100%;
-	z-index: 3;
+	z-index: 2;
 	padding-top: 20px;
 	position: fixed;
 	.container {
@@ -18,27 +18,16 @@ header {
 		position: relative;
 		height: 100%;
 		h3 {
-			font-size: 16px;
+			font-size: 17px;
 		}
 		span {
-			position: absolute;
 			z-index: 4;
+			float: right;
+			margin-left: 25px;
 		}
 		span:first-of-type {
-			left: 0;
-			top: 0;
-		}
-		span:nth-child(2) {
-			right: 0;
-			top: 0;
-		}
-		span:nth-child(3) {
-			right: 0;
-			bottom: 0;
-		}
-		span:nth-child(4) {
-			left: 0;
-			bottom: 0;
+			float: left;
+			margin-left: 0;
 		}
 		a.nav-link {
 			font-family: 'freight';
@@ -126,9 +115,6 @@ footer {
 
 .intro {
 	margin: auto;
-	// text-align: center;
-	// max-width: 900px;
-	// width: 100%;
 	h1 {
 		padding: 50px 0;
 		@media (min-width: 728px) {
@@ -155,13 +141,6 @@ section.work-section {
 						transition: all 350ms ease;
 					}
 				}
-			}
-		}
-	}
-	@media (min-width: 728px) {
-		.work-col:first-child {
-			.work:last-of-type {
-				margin-top: 50px;
 			}
 		}
 	}

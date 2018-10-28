@@ -32,13 +32,13 @@
       <div class='container'>
         
           <span>
-            <a class='home-link' href='index.php#work-anchor'>
+            <a class='home-link' href='index.php'>
               <h3>Natalie Schoch</h3>
             </a>
           </span>
           
           <span>
-            <a class='home-link' href='index.php#work-anchor'>
+            <a class='bio-link' href='#'>
               <h3>About</h3>
             </a>
           </span>

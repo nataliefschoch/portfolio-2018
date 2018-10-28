@@ -15,9 +15,9 @@
           The best way to contact me is <a href='mailto:hello@natalieschoch.com'>email</a>. But you can also check out select design work on <a href='https://dribbble.com/nataliefschoch'>Dribbble</a>, peek at my code on Github, or see my full work history on Linkedin. I’m kind of on Twitter, but it's mostly retweets at this point <span>¯\_(ツ)_/¯</span>
         </p>
         <p>
-          <span class='small-caps'>
-          This site was hand-coded.
-        </span>
+          <span>
+            Featured in: <a href='#'>Interface Lovers</a>, and <a href='#'>Proto-typer.io</a>
+          </span>
         </p>
       </div>
         </div>

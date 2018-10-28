@@ -1,15 +1,15 @@
 @import url(reset.css);
 @font-face {
   font-family: 'atlas-grotesk-med';
-  src: url("../fonts/AtlasGrotesk-Medium-Web.eot");
+  src: url("../fonts/p22-mackinac-book.eot");
   /* IE9 Compat Modes */
-  src: url("../fonts/AtlasGrotesk-Medium-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/AtlasGrotesk-Medium-Web.woff2") format("woff2"), url("../fonts/AtlasGrotesk-Medium-Web.woff") format("woff"), url("../fonts/AtlasGrotesk-Medium-Web.ttf") format("truetype"), url("../fonts/AtlasGrotesk-Medium-Web.svg#svgFontName") format("svg");
+  src: url("../fonts/p22-mackinac-book.eot?#iefix") format("embedded-opentype"), url("../fonts/p22-mackinac-book.woff2") format("woff2"), url("../fonts/p22-mackinac-book.woff") format("woff"), url("../fonts/p22-mackinac-book.ttf") format("truetype"), url("../fonts/p22-mackinac-book.svg#svgFontName") format("svg");
   /* Legacy iOS */ }
 @font-face {
   font-family: 'atlas-grotesk-reg';
-  src: url("../fonts/AtlasGrotesk-Regular-Web.eot");
+  src: url("../fonts/p22-mackinac-book.eot");
   /* IE9 Compat Modes */
-  src: url("../fonts/AtlasGrotesk-Regular-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/AtlasGrotesk-Regular-Web.woff2") format("woff2"), url("../fonts/AtlasGrotesk-Regular-Web.woff") format("woff"), url("../fonts/AtlasGrotesk-Regular-Web.ttf") format("truetype"), url("../fonts/AtlasGrotesk-Regular-Web.svg#svgFontName") format("svg");
+  src: url("../fonts/p22-mackinac-book.eot?#iefix") format("embedded-opentype"), url("../fonts/p22-mackinac-book.woff2") format("woff2"), url("../fonts/p22-mackinac-book.woff") format("woff"), url("../fonts/p22-mackinac-book.ttf") format("truetype"), url("../fonts/p22-mackinac-book.svg#svgFontName") format("svg");
   /* Legacy iOS */ }
 html,
 body {
@@ -1378,7 +1378,7 @@ a {
 header {
   height: 100%;
   width: 100%;
-  z-index: 3;
+  z-index: 2;
   padding-top: 20px;
   position: fixed; }
   header .container {
@@ -1386,22 +1386,14 @@ header {
     position: relative;
     height: 100%; }
     header .container h3 {
-      font-size: 16px; }
+      font-size: 17px; }
     header .container span {
-      position: absolute;
-      z-index: 4; }
+      z-index: 4;
+      float: right;
+      margin-left: 25px; }
     header .container span:first-of-type {
-      left: 0;
-      top: 0; }
-    header .container span:nth-child(2) {
-      right: 0;
-      top: 0; }
-    header .container span:nth-child(3) {
-      right: 0;
-      bottom: 0; }
-    header .container span:nth-child(4) {
-      left: 0;
-      bottom: 0; }
+      float: left;
+      margin-left: 0; }
     header .container a.nav-link {
       font-family: 'freight';
       font-size: 1.2em; }
@@ -1475,8 +1467,5 @@ section.work-section {
       section.work-section .work-col a.work .work-img:hover img {
         transform: scale(1.02);
         transition: all 350ms ease; }
-  @media (min-width: 728px) {
-    section.work-section .work-col:first-child .work:last-of-type {
-      margin-top: 50px; } }
 
 /*# sourceMappingURL=style.css.map */
