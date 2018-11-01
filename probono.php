@@ -1,6 +1,6 @@
-<?php include("_header.php"); ?>
 
-<body>  
+<body>
+  <?php include("_header.php"); ?>  
   <div class='work pro-bono'>
     
     <section>
@@ -16,7 +16,7 @@
                 <span class='small-caps margin-left-10px'>Design &amp; Art Direction</span>
               </div>
               <h1>
-                <a href='https://gusto.com/careers', target='_blank'></a> for what it's like to work at a company who helps build great places to work.
+                Volunteering and pro-bono projects
               </h1>
               <p>Gusto embarked on a redesign of it’s careers page. We wanted to update the page to reflect the current look and feel of the brand and to improve the user experience for applying candidates. As the lead designer on the project, I worked with copywriters, illustrators, photographers, and individuals from our recruiting team to build an experience that reflected Gusto’s culture, and made it easy and delightful for candidates to apply.</p>
             </div>

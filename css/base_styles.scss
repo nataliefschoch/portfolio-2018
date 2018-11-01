@@ -5,7 +5,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	color: $black;
-	font-family: 'atlas-grotesk-reg', 'Helvetica', 'Helvetica Neue', 'Arial', 'Sans serif';
+	font-family: 'p22-mackinac-book', 'atlas-grotesk-reg', 'Helvetica', 'Helvetica Neue', 'Arial', 'Sans serif';
 	font-size: 13px;
 	@media (min-width: 728px) {
 	  	font-size: 18px;
@@ -32,7 +32,7 @@ h1 {
 	margin-bottom: 15px;
 	@media (min-width: 728px) {
   	font-size: 32px;
-		line-height: 41px;
+		line-height: 47px;
 	}
 }
 
@@ -45,16 +45,21 @@ h2 {
 h3 {
 	font-size: 13px;
 	margin-bottom: 12px;
-		@media (min-width: 728px) {
+	@media (min-width: 728px) {
   	font-size: 23px;
 	}
 }
 
 h4 {
+	font-size: 13px;
 	margin-bottom: 12px;
+	@media (min-width: 728px) {
+  	font-size: 18px;
+	}
 }
 
 p {
+	font-family: 'atlas-grotesk-reg';
 	font-size: 13px;
 	@media (min-width: 728px) {
 	  	font-size: 18px;

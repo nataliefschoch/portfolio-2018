@@ -39,19 +39,7 @@
           
           <span>
             <a class='bio-link' href='#'>
-              <h3>About</h3>
-            </a>
-          </span>
-
-          <span>
-            <a class='home-link' href='index.php#work-anchor'>
-              <h3>Work</h3>
-            </a>
-          </span>
-
-          <span>
-            <a class='home-link' href='index.php#work-anchor'>
-              <h3>Email</h3>
+              <h3 class='inline-block margin-right-15px'>Work</h3> <h3 class='inline-block margin-right-15px'>About</h3> <h3 class='inline-block margin-right-15px'>Email</h3> 
             </a>
           </span>
         

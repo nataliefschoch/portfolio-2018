@@ -6,8 +6,28 @@
       <div class='row'>
         <div class='col-md-8 col-md-offset-2 text-center'>
           <h1>
-            <a href='#'>Natalie Schoch</a> is a digital designer living in San Francisco. I work on the Brand Studio team at <a href='#'>Gusto</a>, a company building HR software for small businesses.
+            <a href='#'>Natalie</a> is a digital designer living in San Francisco. She's currently on the Brand Studio team at <a href='#'>Gusto</a>, a company building HR software for small businesses.
           </h1>
+          <p class='inline-block'>
+            <a href='#', class='social', target='_blank'>
+              Dribbble
+            </a>
+          </p>
+          <p class='inline-block'>
+            <a href='#', class='social', target='_blank'>
+              Linkedin
+            </a>
+          </p>
+          <p class='inline-block'>
+            <a href='#', class='social', target='_blank'>
+              Twitter
+            </a>
+          </p>
+          <p class='inline-block'>
+            <a href='#', class='social', target='_blank'>
+              Github
+            </a>
+          </p>
         </div>
       </div>
     </div>
@@ -23,17 +43,17 @@
             <div class='work-img'>
               <img src='images/img-work-gusto-careers.jpg', class='img-responsive', alt='Natalie Schoch, designer', title='Natalie Schoch, designer'/>
             </div>
-            <p>Gusto Careers</p>
-            <span class='small-caps'>Design &amp; Development</span>
+            <h4 class='margin-bottom-0px'>Gusto Careers</h4>
+            <p>Design &amp; Development</p>
           </a>
         </div>
         <div class='col-md-6'>
           <a class='work text-center'href='#'>
             <div class='work-img'>
-              <img src='images/img-work-wordsmith.jpg', class='img-responsive', alt='Natalie Schoch, Wordsmith Chrome Extension', title='Wordsmith Chrome Extension'/>
+              <img src='images/img-work-wordsmith.gif', class='img-responsive', alt='Natalie Schoch, Wordsmith Chrome Extension', title='Wordsmith Chrome Extension'/>
             </div>
-            <p>Wordsmith</p>
-            <span class='small-caps'>Design &amp; Development</span>
+            <h4 class='margin-bottom-0px'>Wordsmith</h4>
+            <p>Design &amp; Development</p>
           </a>
         </div>
       </div>
@@ -44,9 +64,8 @@
             <div class='work-img'>
               <img src='images/img-work-branding.jpg', class='img-responsive', alt='Natalie Schoch, designer', title='Natalie Schoch, designer'/>
             </div>
-            <p class='inline-block'>Brittany Powers Photography</p>
-            &mdash;
-            <span class='small-caps'>Design &amp; Development</span>
+            <h4 class='margin-bottom-0px'>Brittany Powers Photography</h4>
+            <p>Design &amp; Development</p>
           </a>
         </div>
         <div class='col-md-4'>
@@ -54,9 +73,8 @@
             <div class='work-img'>
               <img src='images/img-work-VAD.jpg', class='img-responsive', alt='Natalie Schoch, Pro-bono projects', title='Pro-bono projects'/>
             </div>
-            <p class='inline-block'>VAD Foundation</p>
-            &mdash;
-            <span class='small-caps'>Design &amp; Development</span>
+            <h4 class='margin-bottom-0px'>VAD Foundation</h4>
+            <p>Design &amp; Development</p>
           </a>
         </div>
         <div class='col-md-4'>
@@ -64,9 +82,8 @@
             <div class='work-img'>
               <img src='images/img-work-misc.jpg', class='img-responsive', alt='Natalie Schoch, Wordsmith Chrome Extension', title='Wordsmith Chrome Extension'/>
             </div>
-            <p class='inline-block'>Gusto Misc</p>
-            &mdash;
-            <span class='small-caps'>Design &amp; Development</span>
+            <h4 class='margin-bottom-0px'>Gusto Misc</h4>
+            <p>Design &amp; Development</p>
           </a>
         </div>
       </div>
@@ -74,6 +91,8 @@
     </div>
   </section>
 </body>
+
+<span class='text-center p-lrg block'>〰</span>️
 
 <?php include("_bio.php"); ?>
 <?php include("_footer.php"); ?>

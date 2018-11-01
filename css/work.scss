@@ -3,33 +3,10 @@
 
 .work {
 	padding-top: 70px;
-	a {
-		font-family: 'Freight';
-		font-size: 1.2em;
-		// text-decoration: underline;
-		&:hover {
-			// text-decoration: underline;
-		}
-		&:active,
-		&:focus,
-		&:visited {
-			// text-decoration: underline;
-		}
-	}
 	.container {
 		padding-top: 60px;
 		padding-bottom: 80px;
 	}
-	ul,
-		ol {
-			li {
-				 border-top: 1px solid black;
-				 padding: 10px 0;
-				 &:last-of-type {
-				 	border-bottom: 1px solid black; 
-				 }
-			}
-		}
 	.work-intro {
 		p {
 			padding-top: 30px;
@@ -37,7 +14,7 @@
 	}
 	&.gusto-careers {
 		section.gusto-careers-screens {
-			background: #30a9cc;
+			background: #252525;
 			height: 900px;
 			img {
 				box-shadow: -1px 2px 37px 22px #00000008;
