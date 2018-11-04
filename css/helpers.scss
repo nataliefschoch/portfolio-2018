@@ -29,6 +29,9 @@
 .opacity {
   opacity: 0.4;
 }
+.bold {
+  font-family: 'atlas-grotesk-med';
+}
 
 @for $i from 0 through 40 {
   $size-increment: 5;

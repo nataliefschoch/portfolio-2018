@@ -43,7 +43,7 @@
               <img src='images/img-work-gusto-careers.jpg', class='img-responsive', alt='Natalie Schoch, designer', title='Natalie Schoch, designer'/>
             </div>
             <h4 class='margin-bottom-0px'>Gusto Careers</h4>
-            <p>Design &amp; Development</p>
+            <p class='p-sm'>Design &amp; Development</p>
           </a>
         </div>
         <div class='work-col col-md-6'>
@@ -52,19 +52,19 @@
               <img src='images/img-work-wordsmith.gif', class='img-responsive', alt='Natalie Schoch, Wordsmith Chrome Extension', title='Wordsmith Chrome Extension'/>
             </div>
             <h4 class='margin-bottom-0px'>Wordsmith</h4>
-            <p>Design &amp; Development</p>
+            <p class='p-sm'>Design &amp; Development</p>
           </a>
         </div>
       </div>
       
       <div class='work-row row'>
         <div class='work-col col-md-4'>
-          <a class='work text-center' href='#'>
+          <a class='work text-center' href='bp-branding.php'>
             <div class='work-img three'>
               <img src='images/img-work-branding.jpg', class='img-responsive', alt='Natalie Schoch, designer', title='Natalie Schoch, designer'/>
             </div>
             <h4 class='margin-bottom-0px'>Brittany Powers Photography</h4>
-            <p>Design &amp; Development</p>
+            <p class='p-sm'>Design &amp; Development</p>
           </a>
         </div>
         <div class='work-col col-md-4'>
@@ -73,16 +73,15 @@
               <img src='images/img-work-VAD.jpg', class='img-responsive', alt='Natalie Schoch, Pro-bono projects', title='Pro-bono projects'/>
             </div>
             <h4 class='margin-bottom-0px'>VAD Foundation</h4>
-            <p>Design &amp; Development</p>
+            <p class='p-sm'>Design &amp; Development</p>
           </a>
         </div>
         <div class='work-col col-md-4'>
           <a class='work text-center'href='#'>
             <div class='work-img five'>
-              <img src='images/img-work-misc.jpg', class='img-responsive', alt='Natalie Schoch, Wordsmith Chrome Extension', title='Wordsmith Chrome Extension'/>
+              <img src='images/img-work-gusto-comms.jpg', class='img-responsive', alt='Natalie Schoch, Wordsmith Chrome Extension', title='Wordsmith Chrome Extension'/>
             </div>
-            <h4 class='margin-bottom-0px'>Gusto Misc</h4>
-            <p>Design &amp; Development</p>
+            <h4 class='margin-bottom-0px'>Digital Illustrations</h4>
           </a>
         </div>
       </div>
