@@ -1,21 +1,19 @@
-
+<?php include("_header.php"); ?>
 <body>  
-  <?php include("_header.php"); ?>
   <div class='work gusto-careers'>
     <section>
       <div class='container'>
         <div class='row'>
           <div class='col-md-6 col-md-offset-3'>
-            <div class='work-intro'>
-              <div class='block margin-bottom-20px'>
-                <p class='margin-right-5px inline-block'>
-                  Gusto Careers
-                </p>
-                <p class='inline-block opacity'>Design &amp; Art Direction</p>
-              </div>
+            <div class='work-intro text-center'>
               <h1>
-                <a href='https://gusto.com/careers', target='_blank'>Designing a careers page</a> for what it's like to work at a company who helps build great places to work.
+                Designing the Gusto Careers page
               </h1>
+              <span class='small-caps margin-right-10px'>
+                  Design, Art direction, Front-end
+              </span>
+              &mdash;
+              <span class='small-caps opacity margin-left-10px'>2018</span>
             </div>
           </div>
         </div>
@@ -25,9 +23,9 @@
       <div class='container'>
         <div class='row relative'>
           <div class='col-md-12'>
-            <img src='../images/img-work-gusto-careers--intro-1.jpg', class='img-responsive', alt='', title=''>
-            <img src='../images/img-work-gusto-careers--intro-2.jpg', class='img-responsive', alt='', title=''>
-            <img src='../images/img-work-gusto-careers--intro-3.jpg', class='img-responsive', alt='', title=''>
+            <img src='../images/img-work-gusto-careers--intro-1.jpg', class='img-responsive gusto-careers-screen-1', alt='Gusto Careers page mock-ups', title='Gusto Careers page mock-ups'>
+            <img src='../images/img-work-gusto-careers--intro-2.jpg', class='img-responsive gusto-careers-screen-2', alt='Gusto Careers page mock-ups', title='Gusto Careers page mock-ups'>
+            <img src='../images/img-work-gusto-careers--intro-3.jpg', class='img-responsive gusto-careers-screen-3', alt='Gusto Careers page mock-ups', title='Gusto Careers page mock-ups'>
           </div>
         </div>
       </div>

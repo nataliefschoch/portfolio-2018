@@ -1,6 +1,5 @@
-
+<?php include("_header.php"); ?>
 <body id='portfolio'>
-  <?php include("_header.php"); ?>
   <section class='intro'>
     <div class='container'>
       <div class='row'>
@@ -37,19 +36,19 @@
   <section class='work-section'>
     <div class='container'>
       
-      <div class='work-col row'>
-        <div class='col-md-6'>
+      <div class='work-row row'>
+        <div class='work-col col-md-6'>
           <a class='work text-center' href='gusto-careers.php'>
-            <div class='work-img'>
+            <div class='work-img one'>
               <img src='images/img-work-gusto-careers.jpg', class='img-responsive', alt='Natalie Schoch, designer', title='Natalie Schoch, designer'/>
             </div>
             <h4 class='margin-bottom-0px'>Gusto Careers</h4>
             <p>Design &amp; Development</p>
           </a>
         </div>
-        <div class='col-md-6'>
+        <div class='work-col col-md-6'>
           <a class='work text-center'href='#'>
-            <div class='work-img'>
+            <div class='work-img two'>
               <img src='images/img-work-wordsmith.gif', class='img-responsive', alt='Natalie Schoch, Wordsmith Chrome Extension', title='Wordsmith Chrome Extension'/>
             </div>
             <h4 class='margin-bottom-0px'>Wordsmith</h4>
@@ -58,28 +57,28 @@
         </div>
       </div>
       
-      <div class='work-col row'>
-        <div class='col-md-4'>
+      <div class='work-row row'>
+        <div class='work-col col-md-4'>
           <a class='work text-center' href='#'>
-            <div class='work-img'>
+            <div class='work-img three'>
               <img src='images/img-work-branding.jpg', class='img-responsive', alt='Natalie Schoch, designer', title='Natalie Schoch, designer'/>
             </div>
             <h4 class='margin-bottom-0px'>Brittany Powers Photography</h4>
             <p>Design &amp; Development</p>
           </a>
         </div>
-        <div class='col-md-4'>
+        <div class='work-col col-md-4'>
           <a class='work text-center' href='probono.php'>
-            <div class='work-img'>
+            <div class='work-img four'>
               <img src='images/img-work-VAD.jpg', class='img-responsive', alt='Natalie Schoch, Pro-bono projects', title='Pro-bono projects'/>
             </div>
             <h4 class='margin-bottom-0px'>VAD Foundation</h4>
             <p>Design &amp; Development</p>
           </a>
         </div>
-        <div class='col-md-4'>
+        <div class='work-col col-md-4'>
           <a class='work text-center'href='#'>
-            <div class='work-img'>
+            <div class='work-img five'>
               <img src='images/img-work-misc.jpg', class='img-responsive', alt='Natalie Schoch, Wordsmith Chrome Extension', title='Wordsmith Chrome Extension'/>
             </div>
             <h4 class='margin-bottom-0px'>Gusto Misc</h4>

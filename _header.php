@@ -24,6 +24,8 @@
 
     // page interactions
   </script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>ScrollReveal({ distance: '50px', duration: 1000 })</script>
 </head>
 
 <a name='nav-anchor'></a>

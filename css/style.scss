@@ -5,6 +5,7 @@
 @import 'base_styles';
 @import 'helpers';
 @import 'work';
+@import 'home';
 
 // Shared Component Styles
 header {
@@ -61,115 +62,4 @@ header {
 		top: 0;
 	}
 }
-
-footer {
-	background: $yellow-500;
-	position: fixed;
-	bottom: 0;
-	padding: 5px;
-	text-align: center;
-	z-index: 2;
-	width: 100%;
-	.container {
-		padding: 0;
-	}
-	p {
-		font-size: 13px;
-	}
-	ul {
-		display: inline;
-		li {
-			display: inline;
-			padding-right: 10px;
-			&:last-child {
-				padding-right: 0;
-			}
-			p {
-				display: inline;
-			}
-		}
-	}
-}
-
-// PAGE SPECICS ////////////////////
-
-// home 
-
-.intro,
-.bio {
-	a {
-	    border-bottom: 1px solid #aeaeae;
-		&:hover {
-	    border-bottom: 1px solid #aeaeae;
-		}
-		&:active,
-		&:focus,
-		&:visited {
-			// text-decoration: underline;
-		}
-	}
-}
-
-.intro {
-	margin: auto;
-	padding: 50px 0;
-	@media (min-width: 728px) {
-  	padding: 130px 0 50px;
-	}
-	p {
-		color: $grey-300;
-		margin-right: 13px;
-		&:last-child {
-			margin-right: 0;
-		}
-		a.social {
-			border-bottom: 0;
-			opacity: 0.4;
-			transition: all 350ms ease;
-			&:hover {
-				border-bottom: 0;
-				opacity: 0.7;
-				transition: all 350ms ease;
-			}
-		}
-	}
-}
-
-section.work-section {
-	padding-bottom: 150px;
-	.work-col {
-		a.work {
-			display: block;
-			margin-bottom: 100px;
-			h3 {
-				margin-bottom: 0;
-			}
-			p {
-				margin-top: 0;
-				color: $grey-300;
-			}
-			.work-img {
-				position: relative;
-				margin-bottom: 20px;
-				img {
-					transition: all 350ms ease;
-				}
-				&:hover {
-					img {
-						transform: scale(1.02) rotate(2deg);
-						transition: all 350ms ease;
-						&:nth-of-type(even) {
-							transform: scale(1.02) rotate(-2deg);
-						}
-					}
-
-				}
-			}
-			&:nth-child(even) {
-				background: red;
-			}
-		}
-	}
-}
-
 
