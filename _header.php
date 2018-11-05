@@ -35,13 +35,13 @@
         
           <span>
             <a class='home-link' href='index.php'>
-              <h3>Natalie Schoch</h3>
+              <p class='bold'>Natalie Schoch</p>
             </a>
           </span>
           
           <span>
             <a class='bio-link' href='#'>
-              <h3 class='inline-block margin-right-15px'>Work</h3> <h3 class='inline-block margin-right-15px'>About</h3> <h3 class='inline-block margin-right-15px'>Email</h3> 
+              <p class='inline-block margin-right-15px bold'>Work</p> <p class='inline-block margin-right-15px bold'>About</p> <p class='inline-block margin-right-15px bold'>Email</p> 
             </a>
           </span>
         
