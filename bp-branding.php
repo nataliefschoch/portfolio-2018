@@ -5,7 +5,7 @@
     <section>
       <div class='container'>
         <div class='row'>
-          <div class='col-md-6'>
+          <div class='col-md-8'>
             <div class='work-intro'>
               <p>
                 <span class='bold'>Brittany Powers Photography</span>

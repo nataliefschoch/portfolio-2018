@@ -29,8 +29,8 @@
             <div class='work-img one'>
               <img src='images/img-work-gusto-careers.jpg', class='img-responsive', alt='Natalie Schoch, designer', title='Natalie Schoch, designer'/>
             </div>
-            <p class='bold margin-bottom-0px'>Gusto Careers</p>
-            <p>Design &amp; Development</p>
+            <p class='bold margin-bottom-0px'>Gusto Careers<sup class='opacity padding-left-5px'>1</sup></p>
+            <p>Design &amp; Art Direction</p>
           </a>
         </div>
         <div class='work-col col-md-6'>
@@ -38,7 +38,7 @@
             <div class='work-img two'>
               <img src='images/img-work-wordsmith.gif', class='img-responsive', alt='Natalie Schoch, Wordsmith Chrome Extension', title='Wordsmith Chrome Extension'/>
             </div>
-            <p class='bold margin-bottom-0px'>Wordsmith</p>
+            <p class='bold margin-bottom-0px'>2. Wordsmith &mdash; Chrome Extension</p>
             <p>Design &amp; Development</p>
           </a>
         </div>
@@ -50,25 +50,26 @@
             <div class='work-img three'>
               <img src='images/img-work-branding.jpg', class='img-responsive', alt='Natalie Schoch, designer', title='Natalie Schoch, designer'/>
             </div>
-            <p class='bold margin-bottom-0px'>Brittany Powers Photography</p>
-            <p>Design &amp; Development</p>
+            <p class='bold margin-bottom-0px'>3. Brittany Powers Photography</p>
+            <p>Branding</p>
           </a>
         </div>
         <div class='work-col col-md-4'>
-          <a class='work' href='probono.php'>
-            <div class='work-img four'>
-              <img src='images/img-work-VAD.jpg', class='img-responsive', alt='Natalie Schoch, Pro-bono projects', title='Pro-bono projects'/>
-            </div>
-            <p class='bold margin-bottom-0px'>Gusto Careers</p>
-            <p>Design &amp; Development</p>
-          </a>
-        </div>
-        <div class='work-col col-md-4'>
-          <a class='work'href='#'>
+          <a class='work' href='gusto-comms.php'>
             <div class='work-img five'>
               <img src='images/img-work-gusto-comms.jpg', class='img-responsive', alt='Natalie Schoch, Wordsmith Chrome Extension', title='Wordsmith Chrome Extension'/>
             </div>
-            <p class='bold margin-bottom-0px'>Gusto Careers</p>
+            <p class='bold margin-bottom-0px'>Gusto Brand Design</p>
+            <p>Print &amp; Digital Illustration</p>
+          </a>
+        </div>
+        <div class='work-col col-md-4'>
+          <a class='work' href='misc.php'>
+            <div class='work-img five'>
+              <img src='images/img-work-VAD.jpg', class='img-responsive', alt='Natalie Schoch, Wordsmith Chrome Extension', title='Wordsmith Chrome Extension'/>
+            </div>
+            <p class='bold margin-bottom-0px'>Miscellanous 2016 - 2018</p>
+            <p>Print &amp; Digital Illustration</p>
           </a>
         </div>
       </div>
@@ -79,5 +80,5 @@
 
 <span class= p-lrg block'>〰</span>️
 
-<?php include("_bio.php"); ?>
+
 <?php include("_footer.php"); ?>

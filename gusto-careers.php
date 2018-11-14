@@ -5,7 +5,7 @@
     <section>
       <div class='container'>
         <div class='row'>
-          <div class='col-md-7'>
+          <div class='col-md-8'>
             <div class='work-intro'>
               <p>
                 <span class='bold'>Gusto Careers</span>
@@ -15,9 +15,9 @@
               </p>
               <p>
                 <span class='bold'>
-                  Further reading:
+                  See it live:
                 </span>
-                <a class='block', href='#'>britpow.com</a>
+                <a class='block', href='https://gusto.com/careers'>gusto.com/careers</a>
               </p>
             </div>
           </div>
@@ -38,7 +38,7 @@
     <section>
       <div class='container'>
         <div class='row'>
-          <div class='col-md-7'>
+          <div class='col-md-8'>
             <span class='bold'>Process</span>
             <p>The best thing about a company culture is how multi-faceted it is. For this page, the first thing the team led what what to include and what to not. We worked with Gusto's recruiting team to get a sense of what were the possbilities of features of the page. We determined pretty quickly the page needed to have open positions and updated photography. To make ensure the page also reflected what made Gusto unique, we added diversity and belonging and small business focus, and Gusto testimonials.</p>
             <p class='bold margin-top-30px'>
@@ -107,7 +107,6 @@
           </div>
         </div>
       </div>
-      
     </section>
 
     <section>
@@ -121,9 +120,14 @@
       </div>
     </section>
 
-
     <section>
-      <img src='../images/img-work-gusto-careers--mobile.jpg', class='img-responsive', alt='Gusto Careers Photography', title='Gusto Careers Photography'/>
+      <div class='container'>
+        <div class='row'>
+          <div class='col-md-12'>
+            <img src='../images/img-work-gusto-careers--mobile.jpg', class='img-responsive', alt='Gusto Careers Photography', title='Gusto Careers Photography'/>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section>
@@ -153,34 +157,32 @@
     <section>
       <div class='container padding-bottom-170px'>
         <div class='row'>
-          <div class='col-md-12 text-center'>
-            <span class='small-caps'>
-              Special thanks to:
-            </span>
+          <div class='col-md-12 padding-bottom-15px'>
+            <p class='bold'>Special thanks to:</p>
           </div>
           <div class='col-md-2 margin-top-15px'>
-            <p class='padding-top-10px border-top'>Ellen Ennes</p>
-            <span class='small-caps'>Copyrighting</span>
+            <p class='bold'>Ellen Ennes</p>
+            <span>Copyrighting</span>
           </div>
           <div class='col-md-2 margin-top-15px'>
-            <p class='padding-top-10px border-top'>Micah Panama</p>
-            <span class='small-caps'>Creative Direction</span>
+            <p class='bold'>Micah Panama</p>
+            <span>Creative Direction</span>
           </div>
           <div class='col-md-2 margin-top-15px'>
-            <p class='padding-top-10px border-top'>Jenna Carando</p>
-            <span class='small-caps'>Lettering</span>
+            <p class='bold'>Jenna Carando</p>
+            <span>Lettering</span>
           </div>
           <div class='col-md-2 margin-top-15px'>
-            <p class='padding-top-10px border-top'>Camellia Neri</p>
-            <span class='small-caps'>Illustration</span>
+            <p class='bold'>Camellia Neri</p>
+            <span>Illustration</span>
           </div>
           <div class='col-md-2 margin-top-15px'>
-            <p class='padding-top-10px border-top'>Colin Price</p>
-            <span class='small-caps'>Photography</span>
+            <p class='bold'>Colin Price</p>
+            <span>Photography</span>
           </div>
           <div class='col-md-2 margin-top-15px'>
-            <p class='padding-top-10px border-top'>Sam Ojling</p>
-            <span class='small-caps'>Development</span>
+            <p class='bold'>Sam Ojling</p>
+            <span>Development</span>
           </div>
         </div>
       </div>
@@ -188,5 +190,5 @@
   </div>
 </body>
 
-<?php include("_bio.php"); ?>
+
 <?php include("_footer.php"); ?>

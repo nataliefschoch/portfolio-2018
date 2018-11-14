@@ -41,7 +41,7 @@
           
           <span>
             <a class='bio-link' href='#'>
-              <p class='inline-block margin-right-15px bold'>Work</p> <p class='inline-block margin-right-15px bold'>About</p> <p class='inline-block margin-right-15px bold'>Email</p> 
+              <p class='inline-block margin-right-15px bold'>Work</p> <p class='inline-block margin-right-15px bold'>About</p> <p class='inline-block bold'>Email</p> 
             </a>
           </span>
         
