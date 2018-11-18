@@ -12,7 +12,7 @@
                 <span class='block'>Design and Art Direction &mdash; 2018</span>
               </p>              
               <p>
-                As a fast-growing company, hiring is one of Gusto's toughest goals. The careers page is a integral part of that recruiting process since it is the last touch point before a candidate submits their applications.
+                As a fast-growing company, hiring is one of Gusto's toughest challenges. The careers page is a integral part of that recruiting process since it is the last touch point before a candidate submits their applications.
                 In 2018, Gusto invested in redesigning our careers page to ensure it reflected the company's vibrant culture.
 
 

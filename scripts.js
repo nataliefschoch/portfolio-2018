@@ -2,11 +2,7 @@
 // Credit: https://scrollrevealjs.org/
 
 //----------------- Homepage -----------------
-ScrollReveal().reveal('.work-img.one', { delay: 50 });
-ScrollReveal().reveal('.work-img.two', { delay: 200 });
-ScrollReveal().reveal('.work-img.three', { delay: 50 });
-ScrollReveal().reveal('.work-img.four', { delay: 200 });
-ScrollReveal().reveal('.work-img.five', { delay: 400 });
+ScrollReveal().reveal('.work-img');
 
 //----------------- Work -----------------
 
