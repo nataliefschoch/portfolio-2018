@@ -9,9 +9,13 @@
             <div class='work-intro'>
               <p>
                 <span class='bold'>Gusto Careers</span>
-                <span class='block opacity'>Design and Art Direction, 2018</span>
+                <span class='block'>Design and Art Direction &mdash; 2018</span>
               </p>              
-              <p>Brittany Powers is an Oakland based photographer and retoucher. I worked with her to create a simple and miminal brand system for her business. Brittany Powers is an Oakland based photographer and retoucher. I worked with her to create a simple and miminal brand system for her business.
+              <p>
+                As a fast-growing company, hiring is one of Gusto's toughest goals. The careers page is a integral part of that recruiting process since it is the last touch point before a candidate submits their applications.
+                In 2018, Gusto invested in redesigning our careers page to ensure it reflected the company's vibrant culture.
+
+
               </p>
               <p>
                 <span class='bold'>

@@ -27,13 +27,13 @@
             <p class='bold'>Events</p>
           </div>
           <div class='col-md-6'>
-          	<img src='/images/img-work-gusto-comms--talks-poster.jpg', class='img-responsive', alt='', title=''/>
+          	<img src='/images/img-work-gusto-content--process-1.jpg', class='img-responsive', alt='', title=''/>
             <p class='opacity p-sm margin-top-10px block'>
               Poster design by Natalie Schoch and Lettering by Jenna Carando
             </p>
           </div>
           <div class='col-md-6'>
-          	<img src='/images/img-work-gusto-comms--df-event.jpg', class='img-responsive', alt='', title=''/>
+          	<img src='/images/img-work-gusto-content--process-2.jpg', class='img-responsive', alt='', title=''/>
             <p class='opacity p-sm margin-top-10px block'>
               Enrique Allen, Founder of Designerfund moderating The Business of Design event, hosted at Gusto's office.
             </p>
@@ -48,15 +48,9 @@
 
 
         <div class='row'>
-          <div class='col-md-6'>
-          	<img src='/images/img-work-gusto-comms--EOY-socks.jpg', class='img-responsive', alt='', title=''/>
+          <div class='col-md-12'>
+          	<img src='/images/img-work-gusto-content--wireframes.jpg', class='img-responsive', alt='', title=''/>
             <p class='opacity p-sm margin-top-10px block'>
-              Special edition socks
-            </p>
-          </div>
-          <div class='col-md-6'>
-          	<img src='/images/img-work-gusto-comms--EOY-socks.jpg', class='img-responsive', alt='', title=''/>
-          	<p class='opacity p-sm margin-top-10px block'>
               Special edition socks
             </p>
           </div>

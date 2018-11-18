@@ -23,7 +23,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: #000;
   font-family: 'atlas-grotesk-reg', 'Helvetica', 'Helvetica Neue', 'Arial', 'Sans serif';
-  font-size: 13px; }
+  font-size: 19px; }
   @media (min-width: 728px) {
     html,
     body {
@@ -1465,8 +1465,7 @@ header {
     height: 100%;
     z-index: 2; }
     header .container h3 {
-      font-family: 'atlas-grotesk-reg';
-      font-size: 17px; }
+      font-family: 'atlas-grotesk-reg'; }
     header .container span {
       position: absolute; }
     header .container span:first-of-type {
