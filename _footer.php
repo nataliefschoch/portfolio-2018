@@ -2,14 +2,23 @@
 	<div class='container'>
 		<div class='row'>
 			<div class='footer-social col-sm-5 col-sm-12'>
-				<span class='bold'>More: </span>
-				<a href='#'>Dribbble</a>&mdash;Medium&mdash;Github&mdash;Linkedin
+				<p>
+					<span class='bold'>More:</span>
+					<a href='#'>Dribbble</a>&mdash;
+					<a href='#'>Github</a>&mdash;
+					<a href='#'>Linkedin</a>&mdash;
+					<a href='#'>Medium</a>
+				</p>
 			</div>
 			<div class='footer-top col-sm-2 col-xs-6'>
-				<a class='bold' href='#nav-anchor'>Back to top</a>
+				<p>
+					<a class='bold' href='#nav-anchor'>Back to top</a>
+				</p>
 			</div>
 			<div class='footer-copy col-sm-5 col-xs-6'>
-				Natalie Schoch &copy; 2019
+				<p>
+					Natalie Schoch &copy; 2019
+				</p>
 			</div>
 		</div>
 	</div>

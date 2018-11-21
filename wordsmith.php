@@ -42,7 +42,7 @@
       <div class='container'>
         <div class='row'>
           <div class='col-md-8'>
-            <span class='bold'>Wordsmith Positioning</span>
+            <p class='bold'>Wordsmith Positioning</p>
             <p>For the Chrome Store marketing materials, I created some simple branding and positioning around Wordsmith.</p>
             <p class='padding-top-15px bold'>Blurb:</p>
             <p class='pull-quote'>New tab, new word. Download Wordsmith, a Chrome extension to learn new words every time you open a new tab.</p>

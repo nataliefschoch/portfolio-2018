@@ -44,19 +44,17 @@
             <p class='bold margin-top-30px'>
               Goals of the redesign:
             </p>
-            <p>
-              <ol>
-                <li>
-                  1. Represent Gusto's brand
-                </li>
-                <li>
-                  2. Spotlighting diversity and belonging
-                </li>
-                <li>
-                  3. Improving job application user experience
-                </li>
-              </ol>
-            </p>
+            <ol>
+              <li>
+                <p>1. Represent Gusto's brand</p>
+              </li>
+              <li>
+                <p>2. Spotlighting diversity and belonging</p>
+              </li>
+              <li>
+                <p>3. Improving job application user experience</p>
+              </li>
+            </ol>
           </div>
         </div>
       </div>

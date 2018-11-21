@@ -12,6 +12,7 @@
   <meta name="description" content="Natalie Schoch - Design Portfolio">
   <meta name="author" content="Natalie Schoch">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-59157502-1"></script>
   <script>
@@ -21,9 +22,9 @@
     gtag('js', new Date());
 
     gtag('config', 'UA-59157502-1');
-
-    // page interactions
   </script>
+
+  <!-- Scroll Reveal -->
   <script src="https://unpkg.com/scrollreveal"></script>
   <script>ScrollReveal({ distance: '50px', duration: 1000, delay: 100 })</script>
 </head>
@@ -40,7 +41,7 @@
           </span>
           
           <span>
-            <a class='nav-link' href='#work-anchor'>
+            <a class='nav-link' href='index.php#work-anchor'>
               <p class='inline-block bold'>Work</p>
             </a>
             <a class='bio-link' href='#'>
