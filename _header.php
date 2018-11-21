@@ -25,10 +25,10 @@
     // page interactions
   </script>
   <script src="https://unpkg.com/scrollreveal"></script>
-  <script>ScrollReveal({ distance: '50px', duration: 2000 })</script>
+  <script>ScrollReveal({ distance: '50px', duration: 1000, delay: 100 })</script>
 </head>
 
-<a name='nav-anchor'></a>
+
   <header>
     <section>
       <div class='container'>
@@ -40,11 +40,18 @@
           </span>
           
           <span>
+            <a class='nav-link' href='#work-anchor'>
+              <p class='inline-block bold'>Work</p>
+            </a>
             <a class='bio-link' href='#'>
-              <p class='inline-block margin-right-15px bold'>Work</p> <p class='inline-block margin-right-15px bold'>About</p> <p class='inline-block bold'>Email</p> 
+              <p class='inline-block bold bio-link'>About</p>
+            </a>
+            <a class='nav-link' href='mailto:hello@natalieschoch.com'>
+              <p class='inline-block bold'>Email</p> 
             </a>
           </span>
         
       </div>
     </section>
   </header>
+  <a name='nav-anchor'></a>

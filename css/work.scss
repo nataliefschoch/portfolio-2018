@@ -2,49 +2,27 @@
 // work pages
 
 .work {
-	padding-top: 70px;
 	.container {
-		padding-top: 60px;
-		padding-bottom: 80px;
-	}
-	.work-intro {
-		p {
-			padding-top: 30px;
-		}
-	}
-	&.gusto-careers {
-		section.gusto-careers-screens {
-			background: #252525;
-			height: 900px;
-			img {
-				box-shadow: -1px 2px 37px 22px #00000008;
-				display: inline;
-				max-width: 600px;
-				position: absolute;
-				width: 100%;
-				&:first-of-type {
-					left: 50%;
-					margin-left: -300px;
-					z-index: 2;
-				}
-				&:nth-of-type(2) {
-					left: 0;
-					margin-top: 30px;
-					z-index: 1;
-				}
-				&:last-of-type {
-					margin-top: 30px;
-					right: 0;
-					z-index: 1;
-
-				}
+		padding: 15px 0 25px;
+		a {
+			text-decoration: underline;
+			&:hover {
+				text-decoration: underline;
 			}
 		}
-		section.gusto-careers-photography {
-			img {
-				position: absolute;
+		img.img-responsive {
+			margin-bottom: 10px;
+		}
+		@media (min-width: 728px) {
+  		padding: 40px 0 50px;
+			img.img-responsive {
+				margin-bottom: 0;
 			}
 		}
-
+	}
+	.work-footer {
+		@media (min-width: 728px) {
+			padding-bottom: 60px;
+		}
 	}
 }

@@ -14,13 +14,10 @@ header {
 	position: fixed;
 	z-index: 10;
 	.container {
-		padding: 10px 0;
+		padding: 10px 5px;
 		position: relative;
 		height: 100%;
 		z-index: 2;
-		h3 {
-			font-family: 'atlas-grotesk-reg';
-		}
 		span {
 			position: absolute;
 		}
@@ -31,12 +28,66 @@ header {
 		span:nth-of-type(2) {
 			top: 0;
 			right: 0;
+			a {
+				margin-right: 5px;
+				&:last-of-type {
+					margin-right: 0;
+				}
+			}
+		}
+		@media (min-width: 728px) {
+    	padding: 10px 0;
+			span:nth-of-type(2) {
+				a {
+					margin-right: 15px;
+				}
+			}
+	  }
+	}
+}
+
+header, footer {
+	a {
+		color: black;
+		text-decoration: none;
+		&:hover,
+		&:active,
+		&:focus,
+		&:visited {
+			color: black;
+			text-decoration: none;
+		}
+	}
+}
+
+footer {
+	padding-bottom: 40px;
+	.footer-social {
+		text-align: center;
+		padding: 20px 0;
+	}
+	.footer-top {
+		text-align: left;
+	}
+	.footer-copy {
+		text-align: right;
+	}
+	@media (min-width: 728px) {
+		.footer-social {
+			text-align: left;
+			padding: 0;
+		}
+		.footer-top {
+			text-align: center;
+		}
+		.footer-copy {
+			text-align: right;
 		}
 	}
 }
 
 .bio {
-	background: $yellow-500;
+	background: #B793A0;
 	height: 100%;
 	overflow: hidden;
 	padding-top: 7%;
@@ -61,4 +112,22 @@ header {
 		top: 0;
 	}
 }
+
+
+.intro {
+	margin: auto;
+	padding: 50px 0 30px;
+	@media (min-width: 728px) {
+  	padding: 100px 0 40px;
+	}
+	@media (min-width: 1100px) {
+  	padding: 170px 0 40px;
+	}
+	&.home {
+		@media (min-width: 1100px) {
+	  	padding: 170px 0 90px;
+		}
+	}
+}
+
 

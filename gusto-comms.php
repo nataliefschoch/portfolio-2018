@@ -1,17 +1,18 @@
 <?php include("_header.php"); ?>
 
 <body>  
-  <div class='work gusto-comms'>
-    <section>
+  <div class='work'>
+
+    <section class='intro'>
       <div class='container'>
         <div class='row'>
           <div class='col-md-8'>
-            <div class='work-intro'>
+            <div>
               <p>
                 <span class='bold'>Gusto Brand Design</span>
-                <span class='block'>Communication design</span>
+                <span class='block'>Communication design and graphic design</span>
               </p>              
-              <p>
+              <p class='padding-top-15px'>
                 The Brand Studio team's mission is to build a category-defining brand and create world class creative that drives growth for Gusto. While I worked most often with the Marketing organization in which our team sits within, I also had the opportunity to work with other cross-functional teams to being brand moments to other important touch points within the organization.
               </p>
             </div>
@@ -23,57 +24,97 @@
     <section>
       <div class='container'>
         <div class='row padding-bottom-25px'>
-          <div class='col-md-12 padding-bottom-15px'>
+          <div class='col-md-8 padding-bottom-25px'>
             <p class='bold'>Events</p>
+            <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Cras ultricies ligula sed magna dictum porta.</p>
+          </div>
+        </div>
+        <div class='row padding-bottom-25px'>
+          <div class='col-md-12 padding-bottom-25px'>
+            <p class='bold'>The Business Impact of Design</p>
           </div>
           <div class='col-md-6'>
-          	<img src='/images/img-work-gusto-comms--talks-poster.jpg', class='img-responsive', alt='', title=''/>
-            <p class='opacity p-sm margin-top-10px block'>
-              Poster design by Natalie Schoch and Lettering by Jenna Carando
+          	<img src='/images/img-work-gusto-comms--biz-impact-poster.jpg', class='img-responsive', alt='', title=''/>
+            <p class='opacity p-sm padding-top-10px block'>
+              Poster design by Natalie Schoch and lettering by Jenna Carando
             </p>
           </div>
           <div class='col-md-6'>
-          	<img src='/images/img-work-gusto-comms--df-event.jpg', class='img-responsive', alt='', title=''/>
-            <p class='opacity p-sm margin-top-10px block'>
+          	<img src='/images/img-work-gusto-comms--biz-impact-event.jpg', class='img-responsive', alt='', title=''/>
+            <p class='opacity p-sm padding-top-10px block'>
+              Enrique Allen, Founder of Designerfund moderating The Business of Design event at the Gusto office.
+            </p>
+          </div>
+        </div>
+        <div class='row padding-bottom-25px'>
+          <div class='col-md-12 padding-bottom-25px'>
+            <p class='bold'>How to Improve Messaging for Faster Growth</p>
+          </div>
+          <div class='col-md-6'>
+            <img src='/images/img-work-gusto-comms--pmm-poster.jpg', class='img-responsive', alt='', title=''/>
+            <p class='opacity p-sm padding-top-10px block'>
+              Promotional and recruiting poster
+            </p>
+          </div>
+          <div class='col-md-6'>
+            <img src='/images/img-work-gusto-comms--pmm-event.jpg', class='img-responsive', alt='', title=''/>
+            <p class='opacity p-sm padding-top-10px block'>
               Enrique Allen, Founder of Designerfund moderating The Business of Design event, hosted at Gusto's office.
             </p>
           </div>
         </div>
+      </div>
+    </section>
 
-        <div class='row'>
-          <div class='col-md-8'>
+    <section>
+      <div class='container'>
+        <div class='row padding-bottom-25px'>
+          <div class='col-md-8 padding-bottom-25px'>
+            <p class='bold'>Swag</p>
             <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Cras ultricies ligula sed magna dictum porta.</p>
           </div>
         </div>
-
-
-        <div class='row'>
+        <div class='row padding-bottom-25px'>
+          <div class='col-md-12 padding-bottom-25px'>
+            <p class='bold'>Brand Studio Stickers</p>
+          </div>
           <div class='col-md-6'>
-          	<img src='/images/img-work-gusto-comms--EOY-socks.jpg', class='img-responsive', alt='', title=''/>
-            <p class='opacity p-sm margin-top-10px block'>
-              Special edition socks
+            <img src='/images/img-work-gusto-comms--bs-stickers.jpg', class='img-responsive', alt='', title=''/>
+            <p class='opacity p-sm padding-top-10px block'>
+              Poster design by Natalie Schoch and Lettering by Jenna Carando
             </p>
           </div>
           <div class='col-md-6'>
-          	<img src='/images/img-work-gusto-comms--EOY-socks.jpg', class='img-responsive', alt='', title=''/>
-          	<p class='opacity p-sm margin-top-10px block'>
-              Special edition socks
+            <img src='/images/img-work-gusto-comms--bs-stickers-laptop.jpg', class='img-responsive', alt='', title=''/>
+            <p class='opacity p-sm padding-top-10px block'>
+              Enrique Allen, Founder of Designerfund moderating The Business of Design event, hosted at Gusto's office.
             </p>
           </div>
         </div>
+        <div class='row padding-bottom-25px'>
+          <div class='col-md-12 padding-bottom-25px'>
+            <p class='bold'>Brand Studio Holiday Calendars</p>
+          </div>
+          <div class='col-md-6'>
+            <img src='/images/img-work-gusto-comms--nov-illo.jpg', class='img-responsive', alt='', title=''/>
+            <p class='opacity p-sm padding-top-10px block'>
+              Poster design by Natalie Schoch and Lettering by Jenna Carando
+            </p>
+          </div>
+          <div class='col-md-6'>
+            <img src='/images/img-work-gusto-comms--nov-illo-cam.jpg', class='img-responsive', alt='', title=''/>
+            <p class='opacity p-sm padding-top-10px block'>
+              Enrique Allen, Founder of Designerfund moderating The Business of Design event, hosted at Gusto's office.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class='container padding-bottom-170px'>
         <div class='row'>
-          <div class='col-md-6'>
-          	<img src='/images/img-work-gusto-comms--bs-stickers-1.jpg', class='img-responsive', alt='', title=''/>
-            <p class='opacity p-sm margin-top-10px block'>
-              Special edition socks
-            </p>
-          </div>
-          <div class='col-md-6'>
-          	<img src='/images/img-work-gusto-comms--bs-stickers-1.jpg', class='img-responsive', alt='', title=''/>
-          	<p class='opacity p-sm margin-top-10px block'>
-              Special edition socks
-            </p>
-          </div>
+          <?php include("_more_work.php"); ?>
         </div>
       </div>
     </section>

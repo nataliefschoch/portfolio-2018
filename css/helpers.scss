@@ -30,7 +30,14 @@
   opacity: 0.4;
 }
 .bold {
-  font-family: 'atlas-grotesk-med';
+  font-weight: 600;
+}
+.normal {
+  font-weight: 400;
+}
+.pull-quote {
+  padding-left: 25px;
+  border-left: 1px solid black;
 }
 
 @for $i from 0 through 40 {
