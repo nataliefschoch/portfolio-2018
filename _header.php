@@ -25,34 +25,33 @@
   </script>
 
   <!-- Scroll Reveal -->
-  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
   <script>ScrollReveal({ distance: '50px', duration: 1000, delay: 100 })</script>
 </head>
 
-
-  <header>
-    <section>
-      <div class='container'>
+<header>
+  <section>
+    <div class='container'>
+      
+        <span>
+          <a class='home-link' href='index.php'>
+            <p class='bold'>Natalie Schoch</p>
+          </a>
+        </span>
         
-          <span>
-            <a class='home-link' href='index.php'>
-              <p class='bold'>Natalie Schoch</p>
-            </a>
-          </span>
-          
-          <span>
-            <a class='nav-link' href='index.php#work-anchor'>
-              <p class='inline-block bold'>Work</p>
-            </a>
-            <a class='bio-link' href='#'>
-              <p class='inline-block bold bio-link'>About</p>
-            </a>
-            <a class='nav-link' href='mailto:hello@natalieschoch.com'>
-              <p class='inline-block bold'>Email</p> 
-            </a>
-          </span>
-        
-      </div>
-    </section>
-  </header>
-  <a name='nav-anchor'></a>
+        <span>
+          <a class='nav-link' href='index.php#work-anchor'>
+            <p class='inline-block bold'>Work</p>
+          </a>
+          <a href='bio.php'>
+            <p class='inline-block bold bio-link'>About</p>
+          </a>
+          <a class='nav-link' href='mailto:hello@natalieschoch.com'>
+            <p class='inline-block bold'>Email</p> 
+          </a>
+        </span>
+      
+    </div>
+  </section>
+</header>
+<a name='nav-anchor'></a>

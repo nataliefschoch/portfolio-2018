@@ -64,7 +64,7 @@ footer {
 	padding-bottom: 40px;
 	.footer-social {
 		text-align: center;
-		padding: 20px 0;
+		padding-bottom: 20px;
 	}
 	.footer-top {
 		text-align: left;
@@ -75,7 +75,7 @@ footer {
 	@media (min-width: 728px) {
 		.footer-social {
 			text-align: left;
-			padding: 0;
+			padding-bottom: 0;
 		}
 		.footer-top {
 			text-align: center;
@@ -85,34 +85,6 @@ footer {
 		}
 	}
 }
-
-.bio {
-	background: #B793A0;
-	height: 100%;
-	overflow: hidden;
-	padding-top: 7%;
-	position: fixed;
-	top: 100%;
-	transition: 450ms ease-out;
-	width: 100%;
-	z-index: 1;
-	img {
-		width: 300px;
-	}
-	p {
-		@media (min-width: 728px) {
-			padding-left: 60px;
-		}
-	}
-	span {
-		font-size: 15px;
-	}
-	&.view {
-		transition: 450ms ease-in;
-		top: 0;
-	}
-}
-
 
 .intro {
 	margin: auto;

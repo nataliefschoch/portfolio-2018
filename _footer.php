@@ -4,10 +4,7 @@
 			<div class='footer-social col-sm-5 col-sm-12'>
 				<p>
 					<span class='bold'>More:</span>
-					<a href='#'>Dribbble</a>&mdash;
-					<a href='#'>Github</a>&mdash;
-					<a href='#'>Linkedin</a>&mdash;
-					<a href='#'>Medium</a>
+					<a class='inline' href='#'>Dribbble</a>&mdash;<a class='inline' href='#'>Github</a>&mdash;<a class='inline' href='#'>Linkedin</a>&mdash;<a class='inline' href='#'>Medium</a>
 				</p>
 			</div>
 			<div class='footer-top col-sm-2 col-xs-6'>
@@ -24,24 +21,6 @@
 	</div>
     <script src="scripts.js"></script>
 	<script>
-	  //// Bio scroll from bottom to top interaction
-
-	  $(".bio-link").click(function(e){
-	    e.preventDefault();
-	    $(".bio").addClass('view');
-	    $("#portfolio").addClass('overflow-hidden');
-	  });
-
-	  $(".home-link").click(function(){
-	    $(".bio").removeClass('view');
-	    $("#portfolio").removeClass('overflow-hidden');
-	  });
-	   $(".nav-link").click(function(){
-	    $(".bio").removeClass('view');
-	    $("#portfolio").removeClass('overflow-hidden');
-	  });
-
-	  
 	  //// Smooth scroll on anchor links
 
 	  // Select all links with hashes

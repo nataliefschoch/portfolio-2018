@@ -50,5 +50,4 @@
   </div>
 </body>
 
-<?php include("_bio.php"); ?>
 <?php include("_footer.php"); ?>

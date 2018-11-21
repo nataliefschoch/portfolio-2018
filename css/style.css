@@ -21,7 +21,6 @@ html,
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #e6e1df45;
   color: #000;
   font-family: 'Basis Grotesque Pro', 'Helvetica', 'Helvetica Neue', 'Arial', 'Sans serif';
   overflow-x: hidden;
@@ -32,6 +31,12 @@ body {
     body {
       font-size: 18px;
       line-height: 30px; } }
+
+body {
+  background: #e6e1df45; }
+
+#about {
+  background: #B793A0; }
 
 html.sr .load-hidden {
   visibility: hidden; }
@@ -133,6 +138,9 @@ a {
 
 .inline-block {
   display: inline-block; }
+
+.inline {
+  display: inline; }
 
 .block {
   display: block; }
@@ -1468,7 +1476,7 @@ footer {
   padding-bottom: 40px; }
   footer .footer-social {
     text-align: center;
-    padding: 20px 0; }
+    padding-bottom: 20px; }
   footer .footer-top {
     text-align: left; }
   footer .footer-copy {
@@ -1476,32 +1484,11 @@ footer {
   @media (min-width: 728px) {
     footer .footer-social {
       text-align: left;
-      padding: 0; }
+      padding-bottom: 0; }
     footer .footer-top {
       text-align: center; }
     footer .footer-copy {
       text-align: right; } }
-
-.bio {
-  background: #B793A0;
-  height: 100%;
-  overflow: hidden;
-  padding-top: 7%;
-  position: fixed;
-  top: 100%;
-  transition: 450ms ease-out;
-  width: 100%;
-  z-index: 1; }
-  .bio img {
-    width: 300px; }
-  @media (min-width: 728px) {
-    .bio p {
-      padding-left: 60px; } }
-  .bio span {
-    font-size: 15px; }
-  .bio.view {
-    transition: 450ms ease-in;
-    top: 0; }
 
 .intro {
   margin: auto;
