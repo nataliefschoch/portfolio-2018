@@ -21,7 +21,7 @@
       <div class='work-row row'>
         <div class='work-col col-md-6'>
           <a class='work' href='gusto-careers.php'>
-            <div class='work-img reveal'>
+            <div class='work-img reveal load-hidden'>
               <img src='images/img-work-gusto-careers.jpg', class='img-responsive', alt='Natalie Schoch, designer', title='Natalie Schoch, designer'/>
             </div>
             <p class='bold margin-top-15px'>Gusto Careers</p>

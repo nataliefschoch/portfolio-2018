@@ -19,7 +19,10 @@
 			</div>
 		</div>
 	</div>
-    <script src="scripts.js"></script>
+	<script>
+		ScrollReveal().reveal('.reveal');
+	</script>
+	
 	<script>
 	  //// Smooth scroll on anchor links
 
@@ -61,3 +64,4 @@
 	    });
 	</script>
 </footer>
+</html>
