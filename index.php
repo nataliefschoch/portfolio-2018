@@ -7,7 +7,7 @@
       <div class='row'>
         <div class='col-md-8'>  
           <h1>
-            Natalie Schoch is a multi-disciplinary designer living in San Francisco. She’s focused on visual design and branding for digital products and dabbles in illustration and front-end. She's currently on the Brand Studio team at <a href='https://gusto.com' target='_blank'>Gusto</a>. You can follow along on <a href='https://dribbble.com/nataliefschoch' target='_blank'>Dribbble</a>, <a href='https://github.com/nataliefschoch' target='_blank'>Github</a>, <a href='https://www.linkedin.com/in/natalieschoch/' target='_blank'>Linkedin</a>, or <a href='https://medium.com/@nataliefschoch' target='_blank'>Medim</a>.
+            Natalie Schoch is a multi-disciplinary designer living in San Francisco. She’s focused on visual design and branding for digital products and dabbles in illustration and front-end. She's currently on the Brand Studio team at <a href='https://gusto.com' target='_blank'>Gusto</a>. You can follow along on <a href='https://dribbble.com/nataliefschoch' target='_blank'>Dribbble</a>, <a href='https://github.com/nataliefschoch' target='_blank'>Github</a>, <a href='https://www.linkedin.com/in/natalieschoch/' target='_blank'>Linkedin</a>, or <a href='https://medium.com/@nataliefschoch' target='_blank'>Medium</a>.
           </h1>
         </div>
       </div>
@@ -71,6 +71,7 @@
       
     </div>
   </section>
+
 </body>
 
 <?php include("_footer.php"); ?>

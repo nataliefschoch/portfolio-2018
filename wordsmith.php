@@ -90,7 +90,7 @@
         <div class='row'>
           <div class='col-md-6 padding-bottom-15px'>
             <p class='bold'>Special thanks to:</p>
-            <p>Lindsay Grizzard&mdash;Engineering</p>
+            <p>Lindsay Grizzard, Engineering</p>
           </div>
           <div class='col-md-6'>
           </div>
@@ -98,7 +98,7 @@
         </div>
       </div>
     </section>
+  </div>
 </body>
 
-<?php include("_bio.php"); ?>
 <?php include("_footer.php"); ?>

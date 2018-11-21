@@ -6,3 +6,8 @@
 	opacity: 0.4;	
 	text-transform: uppercase;
 }
+
+@mixin transition {
+	-webkit-transition: all 200ms ease-in-out; /* Safari */
+    transition: all 200ms ease-in-out;
+}

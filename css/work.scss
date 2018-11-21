@@ -21,6 +21,27 @@
 		}
 	}
 	.work-footer {
+		a {
+			@include transition;
+			text-decoration: none;
+			&:before {
+				@include transition;
+				content: '➞';
+		    position: absolute;
+  			left: -14px;
+  			opacity: 0;
+			}
+			&:hover {
+				@include transition;
+				text-decoration: none;
+				padding-left: 15px;
+				&:before {
+					@include transition;
+					left: 1px;
+    			opacity: 1;
+				}
+			}
+		}
 		@media (min-width: 728px) {
 			padding-bottom: 60px;
 		}

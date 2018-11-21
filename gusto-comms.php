@@ -111,8 +111,8 @@
       </div>
     </section>
 
-    <section>
-      <div class='container padding-bottom-170px'>
+    <section class='work-footer'>
+      <div class='container'>
         <div class='row'>
           <?php include("_more_work.php"); ?>
         </div>
@@ -121,5 +121,4 @@
 	</div>
 </body>
 
-<?php include("_bio.php"); ?>
 <?php include("_footer.php"); ?>

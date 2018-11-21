@@ -55,4 +55,6 @@
       </div>
     </section>
   </header>
+
+  <a target='_blank' href='https://github.com/nataliefschoch/portfolio-2018' class='coded'>Hand-coded with love<span class='sparkle padding-left-5px'>✨</span></a>
   <a name='nav-anchor'></a>

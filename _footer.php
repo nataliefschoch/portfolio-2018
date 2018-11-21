@@ -3,13 +3,15 @@
 		<div class='row'>
 			<div class='footer-social col-sm-5 col-sm-12'>
 				<p>
-					<span class='bold'>More:</span>
-					<a class='inline' href='#'>Dribbble</a>&mdash;<a class='inline' href='#'>Github</a>&mdash;<a class='inline' href='#'>Linkedin</a>&mdash;<a class='inline' href='#'>Medium</a>
+					<a href='#'>Dribbble,</a>
+					<a href='#'>Github,</a>
+					<a href='#'>Linkedin,</a>
+					<a href='#'>Medium</a>
 				</p>
 			</div>
 			<div class='footer-top col-sm-2 col-xs-6'>
 				<p>
-					<a class='bold' href='#nav-anchor'>Back to top</a>
+					<a class='bold' href='#nav-anchor'><span class='arrow padding-right-5px'>➞</span>Back to top</a>
 				</p>
 			</div>
 			<div class='footer-copy col-sm-5 col-xs-6'>
