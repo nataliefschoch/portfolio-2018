@@ -35,9 +35,6 @@ body {
 body {
   background: #e6e1df45; }
 
-#about {
-  background: #B793A0; }
-
 html.sr .load-hidden {
   visibility: hidden; }
 
@@ -1437,6 +1434,12 @@ section.work-section {
     section.work-section {
       padding-bottom: 100px; } }
 
+#about {
+  background: #B793A0; }
+  @media (min-width: 728px) {
+    #about .intro .container {
+      padding-bottom: 100px; } }
+
 header {
   width: 100%;
   padding-top: 20px;
@@ -1498,9 +1501,9 @@ footer {
       padding: 100px 0 40px; } }
   @media (min-width: 1100px) {
     .intro {
-      padding: 170px 0 40px; } }
+      padding: 150px 0 40px; } }
   @media (min-width: 1100px) {
     .intro.home {
-      padding: 170px 0 90px; } }
+      padding: 150px 0 90px; } }
 
 /*# sourceMappingURL=style.css.map */

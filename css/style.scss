@@ -6,6 +6,7 @@
 @import 'helpers';
 @import 'work';
 @import 'home';
+@import 'about';
 
 // Shared Component Styles
 header {
@@ -93,11 +94,11 @@ footer {
   	padding: 100px 0 40px;
 	}
 	@media (min-width: 1100px) {
-  	padding: 170px 0 40px;
+  	padding: 150px 0 40px;
 	}
 	&.home {
 		@media (min-width: 1100px) {
-	  	padding: 170px 0 90px;
+	  	padding: 150px 0 90px;
 		}
 	}
 }
