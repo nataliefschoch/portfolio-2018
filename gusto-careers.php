@@ -27,9 +27,11 @@
     </section>
     <section>
       <div class='container'>
-        <div class='row'>
-          <div class='col-md-12 reveal'>
-            <img src='../images/img-work-gusto-careers--screen-iphone.jpg', class='img-responsive', alt='Gusto Careers Photography', title='Gusto Careers Photography'/>
+        <div class='row padding-bottom-25px'>
+          <div class='col-md-12'>
+            <video width="100%" height="auto" autoplay loop muted>
+              <source src="/images/vid-scroll-careers.mp4" type="video/mp4">
+            </video>
           </div>
         </div>
       </div>
@@ -180,11 +182,10 @@
         <div class='row'>
           <div class='col-md-8'>
             <p class='bold'>Putting it all together</p>
-            <p>The final goal of the redesign was to improve job application user experience. Although our job applications were listed on a third party software, Greenhouse, we wanted to ensure that finding and applying for a position was an intuitive and seamless experience. I worked with our internal engineering team and Greenhouse’s team to layer additional functionality on top of Greenhouse’s API on the job listing part of the page. In addition, we reskinned the job application page to match Gusto’s branding.</p>
+            <p>The final goal of the redesign was to improve job application user experience. Although our job applications were listed on a third party software, Greenhouse, we wanted to ensure that finding and applying for a position was an intuitive and seamless experience. I worked with our internal engineering team and Greenhouse’s team to layer additional functionality on top of Greenhouse’s API on the job listing part of the page. In addition, we reskinned the job application page to match Gusto’s branding.</p>          </div>
             <p>
               We ultimately increased inbound applications increased by 178% and receieved positive anctedoal reception from the Recruiting team. Additionally and just as importantly, internal Gusties I spoke to felt the page was an accurate representation of the culture.
             </p>
-          </div>
         </div>
       </div>
     </section>
@@ -211,13 +212,14 @@
       </div>
     </section>
 
+
     <section class='work-footer'>
       <div class='container'>
         <div class='row'>
           <div class='col-sm-6 padding-bottom-15px'>
             <p class='bold'>Special thanks to:</p>
             <p>Ellen Ennes, Copyrighting</p>
-            <p>Micah Panamda, Creative Direction</p>
+            <p>Micah Panama, Creative Direction</p>
             <p>Camellia Neri, Illustration</p>
             <p>Jenna Carando, Lettering</p>
             <p>Colin Price, Photography</p>

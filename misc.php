@@ -1,24 +1,19 @@
+<?php include("_header.php"); ?>
 
-<body>
-  <?php include("_header.php"); ?>  
-  <div class='work pro-bono'>
-    
-    <section>
+<body>  
+  <div class='work'>
+    <section class='intro'>
       <div class='container'>
         <div class='row'>
-          <div class='col-md-6 col-md-offset-3'>
-            <div class='work-intro'>
-              <div class='block margin-bottom-20px'>
-                <span class='small-caps margin-right-10px'>
-                  Pro-bono Projects
-                </span>
-                &mdash;
-                <span class='small-caps margin-left-10px'>Design &amp; Art Direction</span>
-              </div>
-              <h1>
-                Volunteering and pro-bono projects
-              </h1>
-              <p>Gusto embarked on a redesign of it’s careers page. We wanted to update the page to reflect the current look and feel of the brand and to improve the user experience for applying candidates. As the lead designer on the project, I worked with copywriters, illustrators, photographers, and individuals from our recruiting team to build an experience that reflected Gusto’s culture, and made it easy and delightful for candidates to apply.</p>
+          <div class='col-md-8'>
+            <div>
+              <p>
+                <span class='bold'>Miscelleanous 2016 - 2018</span>
+                <span class='block'>Print and digital illustration</span>
+              </p>              
+              <p class='padding-top-15px'>
+                Brittany Powers is an Oakland based photographer and retoucher. I worked with her to create a simple and miminal brand system for her business. Brittany Powers is an Oakland based photographer and retoucher. I worked with her to create a simple and miminal brand system for her business.
+              </p>
             </div>
           </div>
         </div>
@@ -28,25 +23,15 @@
     <section>
       <div class='container'>
         <div class='row'>
-          <div class='col-md-6 col-md-offset-3'>
-            <span class='small-caps margin-bottom-15px block'>
-              The VAD Foundation &mdash; Print Design
-            </span>
-            <p>
-              <a href='#'>The VAD Foundation</a> is a non-profit dedicated to helping bring access to education to South Sudan.
-            </p>
+          <div class='col-md-8 padding-bottom-25px'>
+            <p class='bold'>Pro-bono projects</p>
+            <p><a href='https://medium.com/@nataliefschoch/how-skills-based-volunteering-can-help-your-design-career-12cc035b5021'>Post</a></p>
           </div>
           <div class='col-md-6'>
-            <img src='images/img-work-VAD.jpg', class='img-responsive', alt='Natalie Schoch, Pro-bono projects', title='Pro-bono projects'/>
-            <span class='small-caps margin-bottom-15px block'>
-              High-fidelity mock-ups
-            </span>
+            <img src='../images/img-work-misc--vad-mailer-1.jpg', class='img-responsive reveal', alt='', title=''>
           </div>
           <div class='col-md-6'>
-            <img src='images/img-work-VAD.jpg', class='img-responsive', alt='Natalie Schoch, Pro-bono projects', title='Pro-bono projects'/>
-            <span class='small-caps margin-bottom-15px block'>
-              High-fidelity mock-ups
-            </span>
+            <img src='../images/img-work-misc--vad-mailer-2.jpg', class='img-responsive reveal', alt='', title=''>
           </div>
         </div>
       </div>
@@ -54,68 +39,56 @@
 
     <section>
       <div class='container'>
-        <div class='row'>
-          <div class='col-md-6 col-md-offset-3'>
-            <span class='small-caps margin-bottom-15px block'>
-              The VAD Foundation &mdash; Print Design
-            </span>
-            <p>
-              <a href='#'>The VAD Foundation</a> is a non-profit dedicated to helping bring access to education to South Sudan.
-            </p>
-          </div>
-          <div class='col-md-6'>
-            <img src='images/img-work-VAD.jpg', class='img-responsive', alt='Natalie Schoch, Pro-bono projects', title='Pro-bono projects'/>
-            <span class='small-caps margin-bottom-15px block'>
-              High-fidelity mock-ups
-            </span>
-          </div>
-          <div class='col-md-6'>
-            <img src='images/img-work-VAD.jpg', class='img-responsive', alt='Natalie Schoch, Pro-bono projects', title='Pro-bono projects'/>
-            <span class='small-caps margin-bottom-15px block'>
-              High-fidelity mock-ups
-            </span>
+        <div class='row padding-bottom-25px'>
+          <div class='col-md-8 padding-bottom-25px'>
+            <p class='bold'>The Bold Italic</p>
+            <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Cras ultricies ligula sed magna dictum porta.</p>
           </div>
         </div>
+        <div class='row padding-bottom-40px'>
+          <div class='col-md-12 padding-bottom-25px'>
+            <p><a href='https://thebolditalic.com/its-not-me-it-s-you-san-francisco-5b0e70ee78f0', target='_blank'>It’s Not Me — It’s You, San Francisco</a> by Allyson Darling</p>
+          </div>
+          <div class='col-md-4'>
+            <img src='/images/img-work-misc--tbi-oakland-web.jpg', class='img-responsive', alt='', title=''/>
+          </div>
+          <div class='col-md-8'>
+            <img src='/images/img-work-misc--tbi-oakland-illo.jpg', class='img-responsive', alt='', title=''/>
+          </div>
+        </div>
+        <div class='row padding-bottom-40px'>
+          <div class='col-md-12 padding-bottom-25px'>
+            <p><a href='https://thebolditalic.com/your-last-minute-guide-to-tomorrows-sf-mayoral-election-6209d914cfe8', target='_blank'>Your Last-Minute Guide to Tomorrow’s SF Mayoral Election</a> by Matt St John</p>
+          </div>
+          <div class='col-md-4'>
+            <img src='/images/img-work-misc--tbi-mayoral-web.jpg', class='img-responsive', alt='', title=''/>
+          </div>
+          <div class='col-md-8'>
+            <img src='/images/img-work-misc--tbi-mayoral-illo.jpg', class='img-responsive', alt='', title=''/>
+          </div>
+        </div>  
+        <div class='row padding-bottom-40px'>
+          <div class='col-md-12 padding-bottom-25px'>
+            <p><a href='https://thebolditalic.com/how-to-occupy-yourself-in-between-twitter-refreshes-on-election-day-bf8d7aa8274a', target='_blank'>How to Occupy Yourself in Between Twitter Refreshes on Election Day</a> by Ginny Hogan</p>
+          </div>
+          <div class='col-md-4'>
+            <img src='/images/img-work-misc--tbi-midterms-web.jpg', class='img-responsive', alt='', title=''/>
+          </div>
+          <div class='col-md-8'>
+            <img src='/images/img-work-misc--tbi-midterms-illo.jpg', class='img-responsive', alt='', title=''/>
+          </div>
+        </div>  
       </div>
     </section>
-
-    <section>
-      <div class='container padding-bottom-170px'>
+    
+    <section class='work-footer'>
+      <div class='container'>
         <div class='row'>
-          <div class='col-md-12 text-center'>
-            <span class='small-caps'>
-              Special thanks to:
-            </span>
-          </div>
-          <div class='col-md-2 margin-top-15px'>
-            <p class='padding-top-10px border-top'>Ellen Ennes</p>
-            <span class='small-caps'>Copyrighting</span>
-          </div>
-          <div class='col-md-2 margin-top-15px'>
-            <p class='padding-top-10px border-top'>Micah Panama</p>
-            <span class='small-caps'>Creative Direction</span>
-          </div>
-          <div class='col-md-2 margin-top-15px'>
-            <p class='padding-top-10px border-top'>Jenna Carando</p>
-            <span class='small-caps'>Lettering</span>
-          </div>
-          <div class='col-md-2 margin-top-15px'>
-            <p class='padding-top-10px border-top'>Camellia Neri</p>
-            <span class='small-caps'>Illustration</span>
-          </div>
-          <div class='col-md-2 margin-top-15px'>
-            <p class='padding-top-10px border-top'>Colin Price</p>
-            <span class='small-caps'>Photography</span>
-          </div>
-          <div class='col-md-2 margin-top-15px'>
-            <p class='padding-top-10px border-top'>Sam Ojling</p>
-            <span class='small-caps'>Development</span>
-          </div>
+          <?php include("_more_work.php"); ?>
         </div>
       </div>
     </section>
   </div>
 </body>
 
-<?php include("_bio.php"); ?>
 <?php include("_footer.php"); ?>

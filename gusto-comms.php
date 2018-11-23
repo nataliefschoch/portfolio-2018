@@ -70,6 +70,52 @@
       <div class='container'>
         <div class='row padding-bottom-25px'>
           <div class='col-md-8 padding-bottom-25px'>
+            <p class='bold'>Launch with Gusto</p>
+            <p>Launch with Gusto is a program that recruits top university talent for our Customer Experience Team. Gusto’s vision is to train and develop recent grads, early in their career, into professionals and future business leaders.</p>
+            <p class='bold'>See it live:</p>
+            <p><a href='https://gusto.com/students' target='_blank'>gusto.com/students</a></p>
+          </div>
+        </div>
+        <div class='row padding-bottom-25px'>
+          <div class='col-md-3'>
+            <img src='/images/img-work-gusto-comms--LwG-1.jpg', class='img-responsive', alt='', title=''/>
+            <p class='opacity p-sm padding-top-10px block'>
+              Recruiting dinner in Atlanta, Georgia
+            </p>
+          </div>
+          <div class='col-md-3'>
+            <img src='/images/img-work-gusto-comms--LwG-2.jpg', class='img-responsive', alt='', title=''/>
+            <p class='opacity p-sm padding-top-10px block'>
+              Recruiting swag
+            </p>
+          </div>
+          <div class='col-md-3'>
+            <img src='/images/img-work-gusto-comms--LwG-3.jpg', class='img-responsive', alt='', title=''/>
+            <p class='opacity p-sm padding-top-10px block'>
+              Photography credit to Jenna Carando
+            </p>
+          </div>
+          <div class='col-md-3'>
+            <img src='/images/img-work-gusto-comms--LwG-4.jpg', class='img-responsive', alt='', title=''/>
+            <p class='opacity p-sm padding-top-10px block'>
+              Poster design by Natalie Schoch and lettering by Jenna Carando
+            </p>
+          </div>
+        </div>
+        <div class='row padding-bottom-25px'>
+          <div class='col-md-12'>
+            <video width="100%" height="auto" autoplay loop muted>
+              <source src="/images/vid-scroll-LwG.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class='container'>
+        <div class='row padding-bottom-25px'>
+          <div class='col-md-8 padding-bottom-25px'>
             <p class='bold'>Swag</p>
             <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Cras ultricies ligula sed magna dictum porta.</p>
           </div>

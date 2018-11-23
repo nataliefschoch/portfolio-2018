@@ -41,15 +41,6 @@
       
       <div class='work-row row'>
         <div class='work-col col-md-4'>
-          <a class='work' href='bp-branding.php'>
-            <div class='work-img reveal'>
-              <img src='images/img-work-branding.jpg', class='img-responsive', alt='Natalie Schoch, designer', title='Natalie Schoch, designer'/>
-            </div>
-            <p class='bold margin-top-15px'>Brittany Powers Photography</p>
-            <p>Branding</p>
-          </a>
-        </div>
-        <div class='work-col col-md-4'>
           <a class='work' href='gusto-comms.php'>
             <div class='work-img reveal'>
               <img src='images/img-work-gusto-comms.jpg', class='img-responsive', alt='Natalie Schoch, Wordsmith Chrome Extension', title='Wordsmith Chrome Extension'/>
@@ -59,12 +50,21 @@
           </a>
         </div>
         <div class='work-col col-md-4'>
+          <a class='work' href='bp-branding.php'>
+            <div class='work-img reveal'>
+              <img src='images/img-work-branding.jpg', class='img-responsive', alt='Natalie Schoch, designer', title='Natalie Schoch, designer'/>
+            </div>
+            <p class='bold margin-top-15px'>Brittany Powers Photography</p>
+            <p>Branding</p>
+          </a>
+        </div>
+        <div class='work-col col-md-4'>
           <a class='work' href='misc.php'>
             <div class='work-img reveal'>
               <img src='images/img-work-VAD.jpg', class='img-responsive', alt='Natalie Schoch, Wordsmith Chrome Extension', title='Wordsmith Chrome Extension'/>
             </div>
             <p class='bold margin-top-15px'>Miscellaneous 2016 - 2018</p>
-            <p>Print</p>
+            <p>Print and digital illustration</p>
           </a>
         </div>
       </div>
