@@ -11,9 +11,6 @@
 .overflow-hidden {
 	overflow: hidden;
 }
-.small-caps {
-	@include small-caps;
-}
 .relative {
 	position: relative;
 }
@@ -33,7 +30,7 @@
   opacity: 0.4;
 }
 .bold {
-  font-weight: 600;
+  font-family: 'basis-grotesque-bold';
 }
 .normal {
   font-weight: 400;

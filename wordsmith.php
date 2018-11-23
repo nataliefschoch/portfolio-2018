@@ -59,7 +59,7 @@
       <div class='container'>
         <div class='row'>
           <div class='col-md-12 margin-bottom-50px'>
-            <img src='../images/img-work-wordsmith--store.jpg', class='img-responsive reveal', alt='', title=''>
+            <img src='../images/img-work-wordsmith--store.jpg', class='img-responsive reveal', alt='Wordsmith Chrome Extension', title='Wordsmith Chrome Extension'>
           </div>
         </div>
       </div>
@@ -80,7 +80,7 @@
       <div class='container'>
         <div class='row'>
           <div class='col-md-12'>
-            <img src='../images/img-work-wordsmith--back-end.jpg', class='img-responsive reveal', alt='', title=''>
+            <img src='../images/img-work-wordsmith--back-end.jpg', class='img-responsive reveal', alt='Wordsmith Chrome Extension', title='Wordsmith Chrome Extension'>
           </div>
         </div>
       </div>

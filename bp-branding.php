@@ -12,7 +12,7 @@
                 <span class='block'>Branding</span>
               </p>              
               <p class='padding-top-15px'>
-                Brittany Powers is an Oakland based photographer and retoucher. I worked with her to create a simple and miminal brand system for her business. Brittany Powers is an Oakland based photographer and retoucher. I worked with her to create a simple and miminal brand system for her business.
+                Brittany Powers is an Oakland based pBrittany Powers Photographyhotographer and retoucher. I worked with her to create a simple and miminal brand system for her business. Brittany Powers is an Oakland based photographer and retoucher. I worked with her to create a simple and miminal brand system for her business.
               </p>
               <p class='padding-top-15px'>
                 <span class='bold'>
@@ -29,13 +29,13 @@
       <div class='container'>
         <div class='row'>
           <div class='col-md-12 margin-bottom-50px'>
-            <img src='../images/img-work-bp-branding--stationary.jpg', class='img-responsive reveal', alt='', title=''>
+            <img src='../images/img-work-bp-branding--stationary.jpg', class='img-responsive reveal', alt='Brittany Powers Photography', title='Brittany Powers Photography'>
           </div>
           <div class='col-md-12 margin-bottom-50px'>
-            <img src='../images/img-work-bp-branding--website.jpg', class='img-responsive reveal', alt='', title=''>
+            <img src='../images/img-work-bp-branding--website.jpg', class='img-responsive reveal', alt='Brittany Powers Photography', title='Brittany Powers Photography'>
           </div>
           <div class='col-md-12'>
-            <img src='../images/img-work-bp-branding--biz-cards.jpg', class='img-responsive reveal', alt='', title=''>
+            <img src='../images/img-work-bp-branding--biz-cards.jpg', class='img-responsive reveal', alt='Brittany Powers Photography', title='Brittany Powers Photography'>
           </div>
         </div>
       </div>

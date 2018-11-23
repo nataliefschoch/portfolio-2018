@@ -69,19 +69,19 @@
       <div class='container'>
         <div class='row reveal'>
           <div class='col-sm-4'>
-            <img src='../images/img-work-gusto-careers--wireframes.jpg', class='img-responsive', alt='', title=''>
+            <img src='../images/img-work-gusto-careers--wireframes.jpg', class='img-responsive', alt='Gusto Careers Wireframes', title='Gusto Careers Wireframes'>
             <p class='opacity p-sm padding-top-10px block text-center'>
               Wireframes
             </p>
           </div>
           <div class='col-sm-4'>
-            <img src='../images/img-work-gusto-careers--high-fidelity-explorations.jpg', class='img-responsive', alt='', title=''>
+            <img src='../images/img-work-gusto-careers--high-fidelity-explorations.jpg', class='img-responsive', alt='Gusto Careers High-fidelity', title='Gusto Careers High-fidelity'>
             <p class='opacity p-sm padding-top-10px block text-center'>
               High-fidelity mock-ups
             </p>
           </div>
           <div class='col-sm-4'>
-            <img src='../images/img-work-gusto-careers--final-mocks.jpg', class='img-responsive', alt='', title=''>
+            <img src='../images/img-work-gusto-careers--final-mocks.jpg', class='img-responsive', alt='Gusto Careers Final Designs', title='Gusto Careers Final Designs'>
             <p class='opacity p-sm padding-top-10px block text-center'>
               Full responsive mock-ups
             </p>
@@ -98,7 +98,7 @@
               Two of the primary goals of the redesign were to capture Gusto’s company culture and to showcase our commitment to diversity and belonging.
             </p>
             <p>
-              I worked with <a href='#'>Colin Price</a>, a talented Oakland-based photographer, to photograph the San Francisco and Denver office. I encouraged imperfections and tried to capture candid moments to reflect the authenticity of the company.
+              I worked with <a target='_blank' href='http://colinprice.photography'>Colin Price</a>, a talented Oakland-based photographer, to photograph the San Francisco and Denver office. I encouraged imperfections and tried to capture candid moments to reflect the authenticity of the company.
             </p>
           </div>
         </div>
@@ -162,13 +162,13 @@
       <div class='container'>
         <div class='row reveal'>
           <div class='col-sm-6'>
-            <img src='../images/img-work-gusto-careers--affinity-badges-laptop.jpg', class='img-responsive', alt='', title=''>
+            <img src='../images/img-work-gusto-careers--affinity-badges-laptop.jpg', class='img-responsive', alt='Gusto Careers Affinity Badges', title='Gusto Careers Affinity Badges'>
             <p class='opacity p-sm text-center padding-top-10px block'>
               Affinity badges on Lea's laptop
             </p>
           </div>
           <div class='col-sm-6'>
-            <img src='../images/img-work-gusto-careers--affinity-badges-web.jpg', class='img-responsive', alt='', title=''>
+            <img src='../images/img-work-gusto-careers--affinity-badges-web.jpg', class='img-responsive', alt='Gusto Careers Affinity Badges', title='Gusto Careers Affinity Badges'>
             <p class='opacity p-sm text-center padding-top-10px block'>
               Affinity badges featured on the page
             </p>

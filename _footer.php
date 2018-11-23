@@ -3,15 +3,15 @@
 		<div class='row'>
 			<div class='footer-social col-sm-5 col-sm-12'>
 				<p>
-					<a href='#'>Dribbble,</a>
-					<a href='#'>Github,</a>
-					<a href='#'>Linkedin,</a>
-					<a href='#'>Medium</a>
+					<a href='https://dribbble.com/nataliefschoch' target='_blank'>Dribbble,</a>
+					<a href='https://github.com/nataliefschoch' target='_blank'>Github,</a>
+					<a href='https://www.linkedin.com/in/natalieschoch/' target='_blank'>Linkedin,</a>
+					<a href='https://medium.com/@nataliefschoch' target='_blank'>Medium</a>
 				</p>
 			</div>
 			<div class='footer-top col-sm-2 col-xs-6'>
 				<p>
-					<a class='bold' href='#nav-anchor'><span class='arrow padding-right-5px'>➞</span>Back to top</a>
+					<a class='bold' href='#nav-anchor'><span class='arrow padding-right-5px hidden-sm hidden-xs hidden-md'>➞</span>Back to top</a>
 				</p>
 			</div>
 			<div class='footer-copy col-sm-5 col-xs-6'>

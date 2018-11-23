@@ -1,29 +1,23 @@
 @charset "UTF-8";
 @import url(reset.css);
 @font-face {
-  font-family: 'p22-mackinac-book';
-  src: url("../fonts/p22-mackinac-book.eot");
+  font-family: 'basis-grotesque-bold';
+  src: url("../fonts/basis-grotesque-bold.eot");
   /* IE9 Compat Modes */
-  src: url("../fonts/p22-mackinac-book.eot?#iefix") format("embedded-opentype"), url("../fonts/p22-mackinac-book.woff2") format("woff2"), url("../fonts/p22-mackinac-book.woff") format("woff"), url("../fonts/p22-mackinac-book.ttf") format("truetype"), url("../fonts/p22-mackinac-book.svg#svgFontName") format("svg");
+  src: url("../fonts/basis-grotesque-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/basis-grotesque-bold.woff2") format("woff2"), url("../fonts/basis-grotesque-bold.woff") format("woff"), url("../fonts/basis-grotesque-bold.ttf") format("truetype"), url("../fonts/basis-grotesque-bold.svg#svgFontName") format("svg");
   /* Legacy iOS */ }
 @font-face {
-  font-family: 'atlas-grotesk-med';
-  src: url("../fonts/AtlasGrotesk-Medium-Web.eot");
+  font-family: 'basis-grotesque-regular';
+  src: url("../fonts/basis-grotesque-regular.eot");
   /* IE9 Compat Modes */
-  src: url("../fonts/AtlasGrotesk-Medium-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/AtlasGrotesk-Medium-Web.woff2") format("woff2"), url("../fonts/AtlasGrotesk-Medium-Web.woff") format("woff"), url("../fonts/AtlasGrotesk-Medium-Web.ttf") format("truetype"), url("../fonts/AtlasGrotesk-Medium-Web.svg#svgFontName") format("svg");
-  /* Legacy iOS */ }
-@font-face {
-  font-family: 'atlas-grotesk-reg';
-  src: url("../fonts/AtlasGrotesk-Regular-Web.eot");
-  /* IE9 Compat Modes */
-  src: url("../fonts/AtlasGrotesk-Regular-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/AtlasGrotesk-Regular-Web.woff2") format("woff2"), url("../fonts/AtlasGrotesk-Regular-Web.woff") format("woff"), url("../fonts/AtlasGrotesk-Regular-Web.ttf") format("truetype"), url("../fonts/AtlasGrotesk-Regular-Web.svg#svgFontName") format("svg");
+  src: url("../fonts/basis-grotesque-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/basis-grotesque-regular.woff2") format("woff2"), url("../fonts/basis-grotesque-regular.woff") format("woff"), url("../fonts/basis-grotesque-regular.ttf") format("truetype"), url("../fonts/basis-grotesque-regular.svg#svgFontName") format("svg");
   /* Legacy iOS */ }
 html,
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #000;
-  font-family: 'Basis Grotesque Pro', 'Helvetica', 'Helvetica Neue', 'Arial', 'Sans serif';
+  font-family: 'basis-grotesque-regular', 'Helvetica', 'Helvetica Neue', 'Arial', 'Sans serif';
   overflow-x: hidden;
   font-size: 15px;
   line-height: 24px; }
@@ -123,14 +117,6 @@ a {
 .overflow-hidden {
   overflow: hidden; }
 
-.small-caps {
-  font-family: 'atlas-grotesk-reg';
-  font-weight: 600;
-  font-size: 0.65em;
-  letter-spacing: 1.3px;
-  opacity: 0.4;
-  text-transform: uppercase; }
-
 .relative {
   position: relative; }
 
@@ -150,7 +136,7 @@ a {
   opacity: 0.4; }
 
 .bold {
-  font-weight: 600; }
+  font-family: 'basis-grotesque-bold'; }
 
 .normal {
   font-weight: 400; }
