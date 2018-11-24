@@ -97,7 +97,7 @@
         </div>
         <div class='row padding-bottom-25px'>
           <div class='col-md-12 reveal'>
-            <video width="100%" height="auto" autoplay loop muted>
+            <video width="100%" height="auto" autoplay loop muted poster="/images/img-work-gusto-comms--LwG-web.jpg">
               <source src="/images/vid-scroll-LwG.mp4" type="video/mp4">
             </video>
           </div>

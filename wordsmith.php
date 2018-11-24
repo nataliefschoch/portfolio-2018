@@ -31,8 +31,10 @@
     <section>
       <div class='container'>
         <div class='row'>
-          <div class='col-md-12 margin-bottom-50px'>
-            <img src='../images/img-work-wordsmith--hero.jpg', class='img-responsive reveal', alt='', title=''>
+          <div class='col-md-12 margin-bottom-50px reveal'>
+            <video width="100%" height="auto" autoplay loop muted poster="/images/img-work-wordsmith--hero.jpg">
+              <source src="/images/vid-wordsmith.mp4" type="video/mp4">
+            </video>
           </div>
         </div>
       </div>
