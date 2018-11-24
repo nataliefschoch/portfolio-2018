@@ -12,7 +12,7 @@
 	</p>
 	<p class='bold'>
 		<a href='gusto-comms.php'>
-			Gusto Brand Design, <span class='normal'>Print and communication design</span>
+			Gusto Brand Design, <span class='normal'>Print, web, and graphic design</span>
 		</a>
 	</p>
 	<p class='bold'>
@@ -22,7 +22,7 @@
 	</p>
 	<p class='bold'>
 		<a href='misc.php'>
-			Miscelleanous 2016- 2018, <span class='normal'>Print and digital illustration</span>
+			Miscellaneous 2016- 2018, <span class='normal'>Print and digital illustration</span>
 		</a>
 	</p>
 </div>

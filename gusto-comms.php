@@ -10,10 +10,10 @@
             <div>
               <p>
                 <span class='bold'>Gusto Brand Design</span>
-                <span class='block'>Communication design and graphic design</span>
+                <span class='block'>Print, web, and graphic design</span>
               </p>              
               <p class='padding-top-15px'>
-                The Brand Studio team's mission is to build a category-defining brand and create world class creative that drives growth for Gusto. While I worked most often with the Marketing organization in which our team sits within, I also had the opportunity to work with other cross-functional teams to being brand moments to other important touch points within the organization.
+                The Brand Studio team at Gusto’s mission is to build a category-defining brand and create world-class creative that drives growth for the company. While I worked most often with the Marketing organization, I also had the opportunity to work with other cross-functional teams on projects that required brand moments. Below are a series of projects I’ve worked on for the Brand Studio team at Gusto.
               </p>
             </div>
           </div>
@@ -23,12 +23,12 @@
 
     <section>
       <div class='container'>
-        <div class='row padding-bottom-25px'>
+<!--         <div class='row padding-bottom-25px'>
           <div class='col-md-8 padding-bottom-25px'>
             <p class='bold'>Events</p>
             <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Cras ultricies ligula sed magna dictum porta.</p>
           </div>
-        </div>
+        </div> -->
         <div class='row padding-bottom-25px'>
           <div class='col-md-12 padding-bottom-25px'>
             <p class='bold'>The Business Impact of Design</p>

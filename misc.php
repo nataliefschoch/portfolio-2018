@@ -8,7 +8,7 @@
           <div class='col-md-8'>
             <div>
               <p>
-                <span class='bold'>Miscelleanous 2016 - 2018</span>
+                <span class='bold'>Miscellaneous 2016 - 2018</span>
                 <span class='block'>Print and digital illustration</span>
               </p>              
             </div>
@@ -22,7 +22,7 @@
         <div class='row'>
           <div class='col-md-8 padding-bottom-25px'>
             <p class='bold'>Pro-bono projects</p>
-            <p>I worked with the <a target='_blank' href='http://www.vadfoundation.org/'>VAD Foundation</a> on their annual mailer in the Fall of 2016. The proceeds from this mailer resulted in over $250,000 in donations to the foundation. You can read more about this experience and other <a target='_blank'href='https://medium.com/@nataliefschoch/how-skills-based-volunteering-can-help-your-design-career-12cc035b5021'>skills-based volunteering expereinces</a> in this post.</p>
+            <p>I worked with the <a target='_blank' href='http://www.vadfoundation.org/'>VAD Foundation</a> on their annual mailer in the Fall of 2016. The proceeds from this mailer resulted in over $250,000 in donations to the foundation. You can read more about this project and <a target='_blank'href='https://medium.com/@nataliefschoch/how-skills-based-volunteering-can-help-your-design-career-12cc035b5021'>skills-based volunteering expereinces</a> in this post.</p>
           </div>
           <div class='col-md-6'>
             <img src='../images/img-work-misc--vad-mailer-1.jpg', class='img-responsive reveal', alt='', title=''>
@@ -39,7 +39,7 @@
         <div class='row padding-bottom-25px'>
           <div class='col-md-8 padding-bottom-25px'>
             <p class='bold'>The Bold Italic</p>
-            <p>I make digital collages and illustrations for the San Francisco publication, The Bold Italic. I work with their editorial staff to create concepts that match the content of the piece and reflect their playful and irreverant brand.</p>
+            <p>I make digital collages and illustrations for the San Francisco publication, The Bold Italic. I work with their editorial staff to create concepts that match the content of the piece and reflect their playful and irreverent brand.</p>
           </div>
         </div>
         <div class='row padding-bottom-40px'>

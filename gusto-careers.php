@@ -12,7 +12,7 @@
                 <p class='block'>Design and art direction</p>
               </p>              
               <p class='padding-top-15px'>
-                As a fast-growing company, hiring is one of the toughest challenges Gusto faces. The careers page is an integral part of that recruiting process because it is the last touch point before a candidate submits their applications. In 2018, Gusto invested in redesigning our out-dated careers page to ensure it represented Gusto’s vibrant culture, our values, and our commitment and investment to diversity.
+                Like many fast-growing tech companies, one of the toughest challenges that Gusto faces is hiring. As the last pre-application touchpoint, the careers page is a critical part of the recruiting process. In 2018, Gusto invested in redesigning its outdated careers page to ensure it represented Gusto’s vibrant culture, values, and commitment and investment to diversity.
               </p>
               <p class='padding-top-15px'>
                 <span class='bold'>
@@ -29,7 +29,7 @@
       <div class='container'>
         <div class='row padding-bottom-25px'>
           <div class='col-md-12'>
-            <video width="100%" height="auto" autoplay loop muted>
+            <video width="100%" height="auto" autoplay loop muted poster="/images/img-work-gusto-careers--screen-iphone.jpg">
               <source src="/images/vid-scroll-careers.mp4" type="video/mp4">
             </video>
           </div>
@@ -42,7 +42,10 @@
           <div class='col-md-8'>
             <p class='bold'>Process</p>
             <p>
-              The primary goal of the redesign was to articulate what makes Gusto unique from all the other tech companies in the space. While Gusto parodies many other companies in regards to benefits and compensation, a key differentiator is our commitment to people and their well-being at work. I worked with the People and Recruiting team to establish the requisite feature list and then partnered with a copywriter to brainstorm how to bring the page to life through visuals and narrative. We determined that actually showing people through photography was the best way to represent Gusto’s culture.
+              The primary goal of the redesign was to articulate what differentiates Gusto from its competitors. While Gusto matches other companies in regards to benefits and compensation, it’s the company’s commitment to culture, values, and its people that sets it apart.
+            </p>
+            <p>
+              I worked with the People team to establish the initial feature list and then partnered with a copywriter to brainstorm how to bring the page to life through visuals and narrative. We walked the People team through three main stages: wireframes, high-fidelity mockups, and final designs.
             </p>
             <p class='bold margin-top-30px padding-bottom-10px'>
               Goals of the redesign:
@@ -58,9 +61,6 @@
                 <p>3. Improving job application user experience.</p>
               </li>
             </ol>
-            <p class='padding-top-15px'>
-              I set up weekly check-ins with the People and Recruiting teams and presented the team’s work to incorporate their feedback and unique perspective. We walked them through three main stages: wireframes, high-fidelity mockups, and final designs.
-            </p>
           </div>
         </div>
       </div>
@@ -83,7 +83,7 @@
           <div class='col-sm-4'>
             <img src='../images/img-work-gusto-careers--final-mocks.jpg', class='img-responsive', alt='Gusto Careers Final Designs', title='Gusto Careers Final Designs'>
             <p class='opacity p-sm padding-top-10px block text-center'>
-              Full responsive mock-ups
+              Fully responsive mock-ups
             </p>
           </div>
         </div>
@@ -95,10 +95,7 @@
           <div class='col-md-8'>
             <p class='bold'>Capturing a culture</p>
             <p>
-              Two of the primary goals of the redesign were to capture Gusto’s company culture and to showcase our commitment to diversity and belonging.
-            </p>
-            <p>
-              I worked with <a target='_blank' href='http://colinprice.photography'>Colin Price</a>, a talented Oakland-based photographer, to photograph the San Francisco and Denver office. I encouraged imperfections and tried to capture candid moments to reflect the authenticity of the company.
+              I worked with <a target='_blank' href='http://colinprice.photography'>Colin Price</a>, a talented Oakland-based photographer, to photograph the team’s in the San Francisco and Denver offices. Through the art direction of the photoshoot, I tried to capture candid moments to reflect the authenticity of the company.
             </p>
           </div>
         </div>
@@ -143,6 +140,13 @@
             <img src='../images/img-work-gusto-careers--photo-10.jpg', class='img-responsive', alt='Gusto Careers Photography', title='Gusto Careers Photography'/>
           </div>
         </div>
+        <div class='row'>
+          <div class='col-md-12'>
+            <p class='opacity p-sm padding-top-10px block text-center'>
+              All photography credit belongs to Colin Price
+            </p>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -182,9 +186,8 @@
         <div class='row'>
           <div class='col-md-8'>
             <p class='bold'>Putting it all together</p>
-            <p>The final goal of the redesign was to improve job application user experience. Although our job applications were listed on a third party software, Greenhouse, we wanted to ensure that finding and applying for a position was an intuitive and seamless experience. I worked with our internal engineering team and Greenhouse’s team to layer additional functionality on top of Greenhouse’s API on the job listing part of the page. In addition, we reskinned the job application page to match Gusto’s branding.</p>          </div>
             <p>
-              We ultimately increased inbound applications increased by 178% and receieved positive anctedoal reception from the Recruiting team. Additionally and just as importantly, internal Gusties I spoke to felt the page was an accurate representation of the culture.
+              The final goal of the redesign was to improve job application user experience. Although our job applications were listed on third-party software, Greenhouse, we wanted to ensure that finding and applying for a position was an intuitive and seamless experience. I worked with our internal engineering team and Greenhouse’s team to build a custom user experience using Greenhouse’s API. In addition, we reskinned the job application page to match Gusto’s branding.
             </p>
         </div>
       </div>
@@ -196,6 +199,17 @@
           <div class='col-md-12'>
             <img src='../images/img-work-gusto-careers--screens.jpg', class='img-responsive reveal load-hidden', alt='Gusto Careers page mock-ups', title='Gusto Careers page mock-ups'>
           </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class='container'>
+        <div class='row'>
+          <div class='col-md-8'>
+            <p class='bold'>Results</p>
+            <p>
+              We were able to increase inbound applications increased by 178% and received a positive reception from the Recruiting team. Additionally, and just as importantly, internal Gusties I spoke to felt the page was an accurate representation of the culture.
+            </p>
         </div>
       </div>
     </section>

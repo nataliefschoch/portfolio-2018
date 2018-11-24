@@ -9,7 +9,7 @@
         </div>
         <div class='col-sm-8 reveal load-hidden'>
           <h1>
-            <span class='bold'>Hi, I'm Natalie</span> 👋 I'm a Bay Area native living in San Francisco, California. I love to work across all graphic mediums but have been playing with code since the days of Myspace and Neopets. I can generally be found listening to too much music, drinking cappuccinos, and overwatering my plant family.
+            <span class='bold'>Hi, I'm Natalie</span> 👋 I'm a Bay Area native living in San Francisco, California. I love to work across all graphic mediums and have been playing with code since the days of Myspace and Neopets. I can generally be found listening to unhealthy amounts of <a href='https://open.spotify.com/user/nattybratty' target='_blank'>music</a>, drinking cappuccinos, and overwatering my plant family.
           </h1>
 <!--           <h1>
             <span class='bold'>Interviewed in:</span> <a href='#'>Interface Lovers</a> and <a href='#'>Proto-typer.io</a>

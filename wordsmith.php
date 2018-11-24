@@ -12,11 +12,10 @@
                 <span class='block'>Design and development</span>
               </p>              
               <p class='padding-top-15px'>
-                Wordsmith is a tool I conceived of and designed after being unsatisifed with the vocabulary tools available in the Chrome Extension store.
-                The idea is simple: leverage already existing SAT word data sets and style the vocabulary word and definitions in elegant typography. 
+                I created and designed Wordsmith after discovering there wasn't a simple, clean Chrome extension to help learn vocabulary. The idea is simple: leverage existing SAT word data sets and style the vocabulary word and definitions in elegant typography.
               </p>
               <p>
-                Surfacing words during a new tab is the perfect use case for those looking to improve their passive vocabulary. The screen is simple enough to ensure legbibility, but elegantly designed with subtle variations to help avoid tedium.
+                Using the new tab screen in Chrome while browsing the internet is an eye-catching but unobtrusive way to introduce or reinforce vocabulary words into those looking to increase their lexicon. The screen is simple enough to ensure legibility but elegantly designed with subtle variations to help avoid tedium.
               </p>
               <p class='padding-top-15px'>
                 <span class='bold'>
@@ -43,11 +42,11 @@
         <div class='row'>
           <div class='col-md-8'>
             <p class='bold'>Wordsmith Positioning</p>
-            <p>For the Chrome Store marketing materials, I created some simple branding and positioning around Wordsmith.</p>
+            <p>For the Chrome Store marketing materials, I created some simple branding and positioning for Wordsmith.</p>
             <p class='padding-top-15px bold'>Blurb:</p>
             <p class='pull-quote'>New tab, new word. Download Wordsmith, a Chrome extension to learn new words every time you open a new tab.</p>
             <p class='bold'>Description:</p>
-            <p class='pull-quote'>Wordsmith is a chrome extension that shows you new vocabulary words with each new tab. The elegant and simple design will help you learn new words with out distracting you from your browsing.
+            <p class='pull-quote'>Wordsmith is a chrome extension that shows a new vocabulary word with each new tab. The elegant and simple design will help you learn new words without distracting from browsing.
             <p class='pull-quote'>
               Use Wordsmith for test preparation, to improve your active vocabulary, or just for fun! Wordsmith utilizes over 1,000 words pulled from GMAT, SAT, and ACT lists of words to know.
             </p>
@@ -69,7 +68,9 @@
         <div class='row'>
           <div class='col-md-8'>
             <p class='bold'>Tech stack:</p>
-            <p>Wordsmith is a light-weight tool utilizing HTML, CSS, and Javascript. I build the front-end and partnered with Lindsay Grizzard on the back-end connections. She wrote a great article about her experience in <a target='_blank' href='https://css-tricks.com/control-the-internet-with-chrome-extensions/'>CSS Tricks</a>.</p>
+            <p>
+              Wordsmith is a light-weight tool utilizing HTML, CSS, and Javascript. I build the front-end and partnered with Lindsay Grizzard on the back-end connections. She wrote about her experience developing Chrome Extensions in <a target='_blank' href='https://css-tricks.com/control-the-internet-with-chrome-extensions/'>CSS Tricks</a>.
+            </p>
             <p class='bold'>Data:</p>
             <p>Wordsmith custom word dataset is a curated and enhanced version based off of a GRE-word dataset. I removed words that we're technically apart of the standardized testing lists, but were commonly known and used. I removed any NSFW or overly grotesk words as to forgo any embarresment at if an unsavory word was to surface at work.</p>
           </div>
@@ -81,6 +82,17 @@
         <div class='row'>
           <div class='col-md-12'>
             <img src='../images/img-work-wordsmith--back-end.jpg', class='img-responsive reveal', alt='Wordsmith Chrome Extension', title='Wordsmith Chrome Extension'>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class='container'>
+        <div class='row'>
+          <div class='col-md-8'>
+            <p>
+              Building Wordsmith provided a great learning experience in seeing a project through its entire lifespan: from ideation to development. There’s been positive reception by way of reviews and tweets, and I’m excited to continue to launch added functionality and more words!
+            </p>
           </div>
         </div>
       </div>

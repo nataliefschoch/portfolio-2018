@@ -12,7 +12,7 @@
                 <span class='block'>Branding</span>
               </p>              
               <p class='padding-top-15px'>
-                Brittany Powers is an Oakland based pBrittany Powers Photographyhotographer and retoucher. I worked with her to create a simple and miminal brand system for her business. Brittany Powers is an Oakland based photographer and retoucher. I worked with her to create a simple and miminal brand system for her business.
+                Brittany Powers is an Oakland based photographer and retoucher. I worked with her to create an elegant and simple brand system that she could continue to use without a designer’s assistance. We looked at dozens of typefaces and neutral color palettes and landed on a condensed style of Domaine Display.
               </p>
               <p class='padding-top-15px'>
                 <span class='bold'>
