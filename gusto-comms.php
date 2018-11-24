@@ -13,7 +13,7 @@
                 <span class='block'>Print, web, and graphic design</span>
               </p>              
               <p class='padding-top-15px'>
-                The Brand Studio team at Gusto’s mission is to build a category-defining brand and create world-class creative that drives growth for the company. While I worked most often with the Marketing organization, I also had the opportunity to work with other cross-functional teams on projects that required brand moments. Below are a series of projects I’ve worked on for the Brand Studio team at Gusto.
+                The Brand Studio team at Gusto’s mission is to build a category-defining brand and create world-class creative that drives growth for the company. While I work most often with the Marketing organization, I also have the opportunity to work with other cross-functional teams on projects that required brand moments. Below are a series of projects I’ve worked on for the Brand Studio team at Gusto.
               </p>
             </div>
           </div>
@@ -108,10 +108,6 @@
     <section>
       <div class='container'>
         <div class='row padding-bottom-25px'>
-          <div class='col-md-8 padding-bottom-25px'>
-            <p class='bold'>Swag</p>
-            <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Cras ultricies ligula sed magna dictum porta.</p>
-          </div>
         </div>
         <div class='row padding-bottom-35px'>
           <div class='col-md-12 padding-bottom-25px'>

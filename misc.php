@@ -39,7 +39,7 @@
         <div class='row padding-bottom-25px'>
           <div class='col-md-8 padding-bottom-25px'>
             <p class='bold'>The Bold Italic</p>
-            <p>I make digital collages and illustrations for the San Francisco publication, The Bold Italic. I work with their editorial staff to create concepts that match the content of the piece and reflect their playful and irreverent brand.</p>
+            <p>I make digital collages and illustrations for the San Francisco publication, <a href='https://thebolditalic.com' target='_blank'>The Bold Italic</a>. I work with their editorial staff to create concepts that match the content of the piece and reflect their playful and irreverent brand.</p>
           </div>
         </div>
         <div class='row padding-bottom-40px'>

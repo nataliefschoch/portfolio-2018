@@ -1,4 +1,5 @@
 // helpers
+
 .text-center {
 	text-align: center;
 }
@@ -23,9 +24,6 @@
 .block {
 	display: block;
 }
-.border-top {
-	border-top: 1px solid $black;
-}
 .opacity {
   opacity: 0.4;
 }
@@ -40,6 +38,7 @@
   border-left: 1px solid black;
 }
 
+// spacing
 @for $i from 0 through 40 {
   $size-increment: 5;
   $size: $i * $size-increment;
