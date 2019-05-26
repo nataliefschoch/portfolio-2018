@@ -30,7 +30,7 @@ html.sr .load-hidden {
 	padding-left: 0;
 	padding-right: 0;
 	@media (min-width: 728px) {
-		max-width: 1200px;
+		max-width: 1500px;
 		width: 90%;
 		padding-top: 30px;
 	}
@@ -42,7 +42,7 @@ h1 {
 	margin-bottom: 15px;
 	@media (min-width: 728px) {
     font-size: 27px;
-  	line-height: 37px;
+  	line-height: 40px;
 	}
 }
 
@@ -69,10 +69,11 @@ h4 {
 }
 
 p {
-	font-size: 16px;
+	font-size: 15px;
 	line-height: 24px;
+	letter-spacing: 0.1px;
 	@media (min-width: 728px) {
-	  	font-size: 21px;
+	  	font-size: 19px;
 	  	line-height: 32px;
 	}
 	&.p-lrg {
@@ -100,13 +101,13 @@ p {
 
 a {
 	color: $black;
-	text-decoration: underline;
+	text-decoration: none;
 	&:hover,
 	&:active,
 	&:focus,
 	&:visited {
 		color: $black;
-		text-decoration: underline;
+		text-decoration: none;
 	}
 }
 

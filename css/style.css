@@ -41,7 +41,7 @@ html.sr .load-hidden {
   padding-right: 0; }
   @media (min-width: 728px) {
     .container {
-      max-width: 1200px;
+      max-width: 1500px;
       width: 90%;
       padding-top: 30px; } }
 
@@ -52,7 +52,7 @@ h1 {
   @media (min-width: 728px) {
     h1 {
       font-size: 27px;
-      line-height: 37px; } }
+      line-height: 40px; } }
 
 h2 {
   font-size: 26px;
@@ -74,11 +74,12 @@ h4 {
       font-size: 18px; } }
 
 p {
-  font-size: 16px;
-  line-height: 24px; }
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.1px; }
   @media (min-width: 728px) {
     p {
-      font-size: 21px;
+      font-size: 19px;
       line-height: 32px; } }
   p.p-lrg {
     font-size: 12px;
@@ -100,10 +101,10 @@ p {
 
 a {
   color: #000;
-  text-decoration: underline; }
+  text-decoration: none; }
   a:hover, a:active, a:focus, a:visited {
     color: #000;
-    text-decoration: underline; }
+    text-decoration: none; }
 
 .text-center {
   text-align: center; }
@@ -1452,12 +1453,16 @@ a.coded {
     a.coded {
       right: -50px; } }
 
+.intro.home a {
+  border-bottom: 1px solid #000; }
+
 section.work-section {
   padding-bottom: 30px; }
   section.work-section .work-row a.work {
     display: block;
     margin-bottom: 40px;
-    text-decoration: none; }
+    text-decoration: none;
+    position: relative; }
     section.work-section .work-row a.work:hover, section.work-section .work-row a.work:active, section.work-section .work-row a.work:focus, section.work-section .work-row a.work:visited {
       text-decoration: none; }
     section.work-section .work-row a.work h3 {
@@ -1469,14 +1474,27 @@ section.work-section {
       margin-bottom: 20px; }
       section.work-section .work-row a.work .work-img img {
         transition: all 350ms ease; }
-      section.work-section .work-row a.work .work-img:hover img {
-        transform: scale(1.01) rotate(1.5deg);
-        transition: all 350ms ease; }
+    section.work-section .work-row a.work .work-overlay {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      background: #fff;
+      color: #000;
+      opacity: 0;
+      top: 0;
+      transition: all 250ms ease-out;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transform: scale(0.95); }
     @media (min-width: 728px) {
       section.work-section .work-row a.work {
         margin-bottom: 70px; } }
-  section.work-section .work-row .work-col:nth-of-type(even) a.work .work-img:hover img {
-    transform: scale(1.01) rotate(-1.5deg); }
+    section.work-section .work-row a.work:hover .work-overlay {
+      opacity: 1;
+      transition: all 250ms ease-out;
+      transform: scale(0.9); }
   @media (min-width: 992px) {
     section.work-section {
       padding-bottom: 100px; } }
@@ -1494,7 +1512,6 @@ section.work-section {
 header {
   width: 100%;
   padding-top: 30px;
-  position: fixed;
   z-index: 10; }
   header .container {
     padding: 10px 5px;
@@ -1570,6 +1587,7 @@ footer {
       padding: 150px 0 40px; } }
   @media (min-width: 1100px) {
     .intro.home {
-      padding: 150px 0 90px; } }
+      padding: 200px 0 40px;
+      height: 70vh; } }
 
 /*# sourceMappingURL=style.css.map */

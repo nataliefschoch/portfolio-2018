@@ -32,13 +32,21 @@ a.coded {
 	}
 }
 
+.intro.home {
+	a {
+		border-bottom: 1px solid $black;
+	}
+}
+
 section.work-section {
 	padding-bottom: 30px;
+
 	.work-row {
 		a.work {
 			display: block;
 			margin-bottom: 40px;
 			text-decoration: none;
+			position: relative;
 				&:hover,
 				&:active,
 				&:focus,
@@ -57,26 +65,30 @@ section.work-section {
 				img {
 					transition: all 350ms ease;
 				}
-				&:hover {
-					img {
-						transform: scale(1.01) rotate(1.5deg);
-						transition: all 350ms ease;
-					}
-
-				}
+			}
+			.work-overlay {
+				position: absolute;
+				height: 100%;
+				width: 100%;
+				background: $white;
+				color: $black;
+				opacity: 0;
+				top: 0;
+				transition: all 250ms ease-out;
+				text-align: center;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				transform: scale(0.95);
 			}
 			@media (min-width: 728px) {
 				margin-bottom: 70px;
 			}
-		}
-		.work-col:nth-of-type(even) {
-			a.work {
-				.work-img {
-					&:hover {
-						img {
-							transform: scale(1.01) rotate(-1.5deg);
-						}
-					}
+			&:hover {
+				.work-overlay {
+					opacity: 1;
+					transition: all 250ms ease-out;
+					transform: scale(0.9);
 				}
 			}
 		}

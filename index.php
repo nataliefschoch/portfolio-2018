@@ -18,57 +18,78 @@
   <section class='work-section'>
     <div class='container'>
       
-      <div class='work-row row'>
+    <div class='work-row row'>
+        <div class='work-col col-md-6'>
+          <a class='work' href='dipsea.php'>
+            <div class='work-img reveal load-hidden'>
+              <img src='images/img-work-dipsea.jpg', class='img-responsive', alt='Dipsea Onboarding', title='Dipsea Onboarding'/>
+            </div>
+            <div class='work-overlay'>
+            <div class='work-text'>
+              <h2 class='bold'>Dipsea Onboarding</h2>
+              <p>UX design and visual design</p>
+          </div>
+            </div>
+          </a>
+        </div>
         <div class='work-col col-md-6'>
           <a class='work' href='gusto-careers.php'>
             <div class='work-img reveal load-hidden'>
               <img src='images/img-work-gusto-careers.jpg', class='img-responsive', alt='Gusto Careers', title='Gusto Careers'/>
             </div>
-            <p class='bold margin-top-15px'>Gusto Careers</p>
-            <p>Design and art direction</p>
+            <div class='work-overlay'>
+              <div class='work-text'>
+                <h2 class='bold'>Gusto Careers</h2>
+                <p>Design and art direction</p>
+              </div>
+            </div>
           </a>
         </div>
+      </div>
+            
+      <div class='work-row row'>
+        <div class='work-col col-md-6'>
+          <a class='work' href='gusto-comms.php'>
+            <div class='work-img reveal'>
+              <img src='images/img-work-gusto-comms.jpg', class='img-responsive', alt='Gusto Brand Design', title='Gusto Brand Design'/>
+            </div>
+            <div class='work-overlay'>
+              <div class='work-text'>
+                <h2 class='bold'>Gusto Brand Design</h2>
+                <p>Print, web, and graphic design</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class='work-col col-md-6'>
+          <a class='work' href='misc.php'>
+            <div class='work-img reveal'>
+              <img src='images/img-work-la-cocina.jpg', class='img-responsive', alt='Miscellaneous', title='Miscellaneous'/>
+            </div>
+            <div class='work-overlay'>
+              <div class='work-text'>
+                <h2 class='bold'>Miscellaneous 2016 - 2018</h2>
+                <p>Print and digital illustration</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class='work-row row'>
         <div class='work-col col-md-6'>
           <a class='work'href='wordsmith.php'>
             <div class='work-img reveal'>
               <img src='images/img-work-wordsmith.gif', class='img-responsive', alt='Wordsmith Chrome Extension', title='Wordsmith Chrome Extension'/>
             </div>
-            <p class='bold margin-top-15px'>Wordsmith&mdash;Chrome Extension</p>
-            <p>Design and development</p>
-          </a>
-        </div>
-      </div>
-      
-      <div class='work-row row'>
-        <div class='work-col col-md-4'>
-          <a class='work' href='gusto-comms.php'>
-            <div class='work-img reveal'>
-              <img src='images/img-work-gusto-comms.jpg', class='img-responsive', alt='Gusto Brand Design', title='Gusto Brand Design'/>
+            <div class='work-overlay'>
+              <div class='work-text'>
+                <h2 class='bold'>Wordsmith&mdash;Chrome Extension</h2>
+                <p>Design and development</p>
+              </div>
             </div>
-            <p class='bold margin-top-15px'>Gusto Brand Design</p>
-            <p>Print, web, and graphic design</p>
           </a>
         </div>
-        <div class='work-col col-md-4'>
-          <a class='work' href='bp-branding.php'>
-            <div class='work-img reveal'>
-              <img src='images/img-work-branding.jpg', class='img-responsive', alt='Brittany Powers Photography', title='Brittany Powers Photography'/>
-            </div>
-            <p class='bold margin-top-15px'>Brittany Powers Photography</p>
-            <p>Branding</p>
-          </a>
-        </div>
-        <div class='work-col col-md-4'>
-          <a class='work' href='misc.php'>
-            <div class='work-img reveal'>
-              <img src='images/img-work-VAD.jpg', class='img-responsive', alt='Miscellaneous', title='Miscellaneous'/>
-            </div>
-            <p class='bold margin-top-15px'>Miscellaneous 2016 - 2018</p>
-            <p>Print and digital illustration</p>
-          </a>
-        </div>
-      </div>
-      
     </div>
   </section>
 
