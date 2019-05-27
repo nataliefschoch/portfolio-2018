@@ -2,3 +2,36 @@
 	-webkit-transition: all 200ms ease-in-out; /* Safari */
     transition: all 200ms ease-in-out;
 }
+
+@mixin h1-style {
+    font-size: 20px;
+	line-height: 30px;
+	margin-bottom: 8px;
+	letter-spacing: 0.12px;
+	@media (min-width: 728px) {
+		font-size: 27px;
+		line-height: 42px;
+		margin-bottom: 15px;
+	}
+}
+
+@mixin h2-style {
+	font-size: 19px;
+	line-height: 35px;
+	margin-bottom: 8px;
+	letter-spacing: 0.12px;
+		@media (min-width: 728px) {
+		font-size: 26px;
+		margin-bottom: 10px;
+	}
+}
+
+@mixin h3-style {
+	font-size: 17px;
+	margin-bottom: 8px;
+	letter-spacing: 0.12px;
+	@media (min-width: 728px) {
+		font-size: 22px;
+		margin-bottom: 10px;
+	}
+}

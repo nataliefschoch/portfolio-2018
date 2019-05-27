@@ -6,7 +6,7 @@
 					Natalie Schoch &copy; 2019
 				</p>
 			</div>
-			<div class='footer-copy col-sm-6 col-xs-6'>
+			<div class='footer-top col-sm-6 col-xs-6'>
 				<p>
 				<a class='bold' href='#nav-anchor'><span class='arrow padding-right-5px hidden-sm hidden-xs hidden-md'>➞</span>Back to top</a>
 				</p>

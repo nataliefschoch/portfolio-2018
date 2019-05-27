@@ -38,6 +38,18 @@
   border-left: 1px solid black;
 }
 
+.h1-style {
+  @include h1-style;
+}
+
+.h2-style {
+  @include h2-style;
+}
+
+.h3-style {
+  @include h3-style;
+}
+
 // spacing
 @for $i from 0 through 40 {
   $size-increment: 5;

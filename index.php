@@ -27,7 +27,8 @@
             <div class='work-overlay'>
             <div class='work-text'>
               <h2 class='bold'>Dipsea Onboarding</h2>
-              <p>UX design and visual design</p>
+              <h3>Creating a high-touch, personalized onboarding flow for the Dipsea app.</h3>
+              <h3 class='categories'>UX &mdash; Visual design</h3>
           </div>
             </div>
           </a>
@@ -40,7 +41,8 @@
             <div class='work-overlay'>
               <div class='work-text'>
                 <h2 class='bold'>Gusto Careers</h2>
-                <p>Design and art direction</p>
+                <h3>Redesigning Gusto's careers page to showcase our people, culture, and values.</h3>
+                <h3 class='categories'>Art direction &mdash; Visual design</h3>
               </div>
             </div>
           </a>
@@ -56,7 +58,8 @@
             <div class='work-overlay'>
               <div class='work-text'>
                 <h2 class='bold'>Gusto Brand Design</h2>
-                <p>Print, web, and graphic design</p>
+                <h3>Highlighting internal projects from the Brand Studio team.</h3>
+                <h3 class='categories'>Art Direction &mdash; Print</h3>
               </div>
             </div>
           </a>
@@ -68,8 +71,9 @@
             </div>
             <div class='work-overlay'>
               <div class='work-text'>
-                <h2 class='bold'>Miscellaneous 2016 - 2018</h2>
-                <p>Print and digital illustration</p>
+                <h2 class='bold'>F&B: Voices from the Kitchen</h2>
+                <h3>Creating the brochure for a La Cocina live magazine event put on my F&B: Voices from the Kitchen.</h3>
+                <h3 class='categories'>Art Direction &mdash; Print</h3>
               </div>
             </div>
           </a>
@@ -85,7 +89,8 @@
             <div class='work-overlay'>
               <div class='work-text'>
                 <h2 class='bold'>Wordsmith&mdash;Chrome Extension</h2>
-                <p>Design and development</p>
+                <h3>Designing and developing Wordsmith, a Chrome Extension that surfaces new words with every new tab.</h3>
+                <h3 class='categories'>Design &mdash; Development</h3>
               </div>
             </div>
           </a>

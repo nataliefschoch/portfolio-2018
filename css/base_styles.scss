@@ -4,7 +4,7 @@ html,
 body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	color: $black;
+	color: #292727;
 	font-family: 'basis-grotesque-regular', 'Helvetica', 'Helvetica Neue', 'Arial', 'Sans serif';
 	overflow-x: hidden;
 	font-size: 15px;
@@ -16,7 +16,7 @@ body {
 }
 
 body {
-background: #e6e1df45;
+	background: $background-color;
 }
 
 html.sr .load-hidden {
@@ -37,31 +37,19 @@ html.sr .load-hidden {
 }
 
 h1 {
-	font-size: 18px;
-	line-height: 27px;
-	margin-bottom: 15px;
-	@media (min-width: 728px) {
-    font-size: 27px;
-  	line-height: 40px;
-	}
+	@include h1-style;
 }
 
 h2 {
-	font-size: 26px;
-	line-height: 35px;
-	margin-bottom: 15px;
+	@include h2-style;
 }
 
 h3 {
-	font-size: 13px;
-	margin-bottom: 12px;
-	@media (min-width: 728px) {
-  	font-size: 23px;
-	}
+	@include h3-style;
 }
 
 h4 {
-	font-size: 13px;
+	font-size: 16px;
 	margin-bottom: 12px;
 	@media (min-width: 728px) {
   	font-size: 18px;
@@ -69,7 +57,7 @@ h4 {
 }
 
 p {
-	font-size: 15px;
+	font-size: 16px;
 	line-height: 24px;
 	letter-spacing: 0.1px;
 	@media (min-width: 728px) {

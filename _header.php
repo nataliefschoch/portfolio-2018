@@ -36,25 +36,23 @@
         
           <span>
             <a class='home-link' href='index.php'>
-              <p class='bold'>Natalie Schoch</p>
+              <p class='h3-style'>Natalie Schoch</p>
             </a>
           </span>
           
           <span>
             <a class='nav-link' href='index.php#work-anchor'>
-              <p class='inline-block bold'>Work</p>
+              <p class='inline-block h3-style'>Work</p>
             </a>
             <a href='bio.php'>
-              <p class='inline-block bold bio-link'>About</p>
+              <p class='inline-block h3-style bio-link'>About</p>
             </a>
             <a class='nav-link' href='mailto:hello@natalieschoch.com'>
-              <p class='inline-block bold'>Email</p> 
+              <p class='inline-block h3-style'>Email</p> 
             </a>
           </span>
         
       </div>
     </section>
   </header>
-
-  <a target='_blank' href='https://github.com/nataliefschoch/portfolio-2018' class='coded'>Hand-coded with love<span class='sparkle padding-left-5px'>✨</span></a>
   <a name='nav-anchor'></a>

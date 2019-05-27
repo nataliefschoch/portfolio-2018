@@ -1,40 +1,23 @@
-a.coded {
-	display: none;
-	@media (min-width: 728px) {
-		@include transition;
-		display: block;
-		cursor: pointer;
-    transform: rotate(90deg);
-    position: fixed;
-    right: -65px;
-    top: 49%;
-    font-size: 14px;
-    opacity: 0.35;
-    text-align: center;
-    text-decoration: none;
-    .sparkle {
-    	@include transition;
-    	opacity: 0;
-    }
-    &:hover {
-    	@include transition;
-    	cursor: pointer;
-    	opacity: 1;	
-    	text-decoration: none;
-    	.sparkle {
-    		@include transition;
-    		opacity: 1;
-    	}
-    }
-	}
-	@media (min-width: 1150px) {
-		right: -50px;
-	}
-}
+
 
 .intro.home {
 	a {
-		border-bottom: 1px solid $black;
+		color: $link-color;
+		text-decoration: none;
+		text-shadow: 
+			 0px -2px 0 $beige-500,  0px -1px 0 $beige-500,  0px 0px 0 $beige-500,
+			 2px -2px 0 $beige-500,  2px -1px 0 $beige-500,  2px 0px 0 $beige-500,
+			-2px -2px 0 $beige-500, -2px -1px 0 $beige-500, -2px 0px 0 $beige-500,
+			 1px -2px 0 $beige-500,  1px -1px 0 $beige-500,  1px 0px 0 $beige-500,
+			-1px -2px 0 $beige-500, -1px -1px 0 $beige-500, -1px 0px 0 $beige-500,
+			 0px -2px 0 $beige-500,  0px -1px 0 $beige-500,  0px 0px 0 $beige-500;
+  
+			
+		transition: all .3s ease-in;
+		&:hover {
+			transition: all .3s ease-out;
+			box-shadow:  0 -1px 0 0 $link-color inset, 0 -2px 0 0 $link-color inset ;
+		}
 	}
 }
 
@@ -74,12 +57,20 @@ section.work-section {
 				color: $black;
 				opacity: 0;
 				top: 0;
-				transition: all 250ms ease-out;
+				transition: all 350ms ease-out;
+				padding: 20px;
 				text-align: center;
 				display: flex;
 				align-items: center;
 				justify-content: center;
-				transform: scale(0.95);
+				transform: scale(0.925);
+				.categories {
+					color: $link-color;
+					padding-top: 15px;
+				}
+				@media (min-width: 728px) {
+					padding: 80px;
+				}
 			}
 			@media (min-width: 728px) {
 				margin-bottom: 70px;
@@ -87,7 +78,7 @@ section.work-section {
 			&:hover {
 				.work-overlay {
 					opacity: 1;
-					transition: all 250ms ease-out;
+					transition: all 350ms ease-out;
 					transform: scale(0.9);
 				}
 			}
