@@ -1,28 +1,33 @@
 <div class='col-sm-6 padding-bottom-15px'>
 	<p class='bold'>See more work:</p>
-	<p class='bold'>
+	<p>
+		<a href='dipsea.php'>
+			Dipsea &mdash; UX &amp; visual design
+		</a>
+	</p>
+	<p>
 		<a href='gusto-careers.php'>
-			Gusto Careers, <span class='normal'>Design and art direction</span>
+			Gusto Careers &mdash; Art direction &amp; web design
 		</a>
 	</p>
-	<p class='bold'>
-		<a href='wordsmith.php'>
-			Wordsmith, <span class='normal'>Design and development</span>
-		</a>
-	</p>
-	<p class='bold'>
+	<p>
 		<a href='gusto-comms.php'>
-			Gusto Brand Design, <span class='normal'>Print, web, and graphic design</span>
+			Gusto Brand Design &mdash; Print &amp; graphic design
 		</a>
 	</p>
-	<p class='bold'>
-		<a href='bp-branding.php'>
-			Brittany Powers Photography, <span class='normal'>Branding</span>
+	<!-- <p>
+		<a href='f-and-b.php'>
+			F&B: Voices from the Kitchen &mdash; Print
+		</a>
+	</p> -->
+	<p>
+		<a href='wordsmith.php'>
+			Wordsmith &mdash; Design &amp; development
 		</a>
 	</p>
-	<p class='bold'>
+	<p>
 		<a href='misc.php'>
-			Miscellaneous 2016- 2018, <span class='normal'>Print and digital illustration</span>
+			Miscellaneous &mdash; Print &amp; visual design
 		</a>
 	</p>
 </div>

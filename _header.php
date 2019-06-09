@@ -29,7 +29,7 @@
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
     <script>ScrollReveal({ distance: '50px', duration: 1000, delay: 100 })</script>
   </head>
-
+  <a name='nav-anchor'></a>
   <header>
     <section>
       <div class='container'>
@@ -55,4 +55,3 @@
       </div>
     </section>
   </header>
-  <a name='nav-anchor'></a>

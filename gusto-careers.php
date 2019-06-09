@@ -5,7 +5,7 @@
     <section class='intro'>
       <div class='container'>
         <div class='row'>
-          <div class='col-md-8'>
+          <div class='col-md-7'>
             <div>
               <p>
                 <p class='bold'>Gusto Careers</p>
@@ -39,7 +39,7 @@
     <section>
       <div class='container'>
         <div class='row'>
-          <div class='col-md-8'>
+          <div class='col-md-7'>
             <p class='bold'>Process</p>
             <p>
               The primary goal of the redesign was to articulate what differentiates Gusto from its competitors. While Gusto matches other companies in regards to benefits and compensation, it’s the company’s commitment to culture, values, and its people that sets it apart.
@@ -92,7 +92,7 @@
     <section>
       <div class='container'>
         <div class='row'>
-          <div class='col-md-8'>
+          <div class='col-md-7'>
             <p class='bold'>Capturing a culture</p>
             <p>
               I worked with <a target='_blank' href='http://colinprice.photography'>Colin Price</a>, a talented Oakland-based photographer, to photograph the team’s in the San Francisco and Denver offices. Through the art direction of the photoshoot, I tried to capture candid moments to reflect the authenticity of the company.
@@ -153,7 +153,7 @@
     <section>
       <div class='container'>
         <div class='row'>
-          <div class='col-md-8'>
+          <div class='col-md-7'>
             <p>
               Gusto has a thriving community of ERGs (employee resource groups) which exist to support, promote, and celebrate a culture or identity. We spotlighted these groups and made accompanying stickers.
             </p>
@@ -184,7 +184,7 @@
     <section>
       <div class='container'>
         <div class='row'>
-          <div class='col-md-8'>
+          <div class='col-md-7'>
             <p class='bold'>Putting it all together</p>
             <p>
               The final goal of the redesign was to improve job application user experience. Although our job applications were listed on third-party software, Greenhouse, we wanted to ensure that finding and applying for a position was an intuitive and seamless experience. I worked with our internal engineering team and Greenhouse’s team to build a custom user experience using Greenhouse’s API. In addition, we reskinned the job application page to match Gusto’s branding.
@@ -205,7 +205,7 @@
     <section>
       <div class='container'>
         <div class='row'>
-          <div class='col-md-8'>
+          <div class='col-md-7'>
             <p class='bold'>Results</p>
             <p>
               We were able to increase inbound applications increased by 178% and received a positive reception from the Recruiting team. Additionally, and just as importantly, internal Gusties I spoke to felt the page was an accurate representation of the culture.
@@ -230,6 +230,7 @@
     <section class='work-footer'>
       <div class='container'>
         <div class='row'>
+          <?php include("_more_work.php"); ?>
           <div class='col-sm-6 padding-bottom-15px'>
             <p class='bold'>Special thanks to:</p>
             <p>Ellen Ennes, Copyrighting</p>
@@ -239,7 +240,6 @@
             <p>Colin Price, Photography</p>
             <p>Sam Ojling, Development</p>
           </div>
-            <?php include("_more_work.php"); ?>
         </div>
       </div>
     </section>

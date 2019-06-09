@@ -57,7 +57,7 @@
             </div>
             <div class='work-overlay'>
               <div class='work-text'>
-                <h2 class='bold'>Gusto Brand Design</h2>
+                <h2 class='bold'>Gusto internal projects</h2>
                 <h3>Highlighting internal projects from the Brand Studio team.</h3>
                 <h3 class='categories'>Art Direction &mdash; Print</h3>
               </div>
@@ -65,15 +65,15 @@
           </a>
         </div>
         <div class='work-col col-md-6'>
-          <a class='work' href='misc.php'>
+          <a class='work'>
             <div class='work-img reveal'>
-              <img src='images/img-work-la-cocina.jpg', class='img-responsive', alt='Miscellaneous', title='Miscellaneous'/>
+              <img src='images/img-work-fb.jpg', class='img-responsive', alt='Miscellaneous', title='Miscellaneous'/>
             </div>
             <div class='work-overlay'>
               <div class='work-text'>
                 <h2 class='bold'>F&B: Voices from the Kitchen</h2>
-                <h3>Creating the brochure for a La Cocina live magazine event put on my F&B: Voices from the Kitchen.</h3>
-                <h3 class='categories'>Art Direction &mdash; Print</h3>
+                <h3>Creating the brochure for a La Cocina live magazine event put on by F&B: Voices from the Kitchen.</h3>
+                <h3 class='categories'>Coming soon!</h3>
               </div>
             </div>
           </a>
@@ -91,6 +91,21 @@
                 <h2 class='bold'>Wordsmith&mdash;Chrome Extension</h2>
                 <h3>Designing and developing Wordsmith, a Chrome Extension that surfaces new words with every new tab.</h3>
                 <h3 class='categories'>Design &mdash; Development</h3>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class='work-row row'>
+        <div class='work-col col-md-6'>
+          <a class='work'href='misc.php'>
+            <div class='work-img reveal'>
+              <img src='images/img-work-misc.jpg', class='img-responsive', alt='Wordsmith Chrome Extension', title='Wordsmith Chrome Extension'/>
+            </div>
+            <div class='work-overlay'>
+              <div class='work-text'>
+                <h2 class='bold'>Miscellanous projects</h2>
+                <h3>Showcasing design projects worked on between 2017 - 2019.</h3>
+                <h3 class='categories'>Digital illustrations &mdash; Print</h3>
               </div>
             </div>
           </a>

@@ -35,6 +35,7 @@ section.work-section {
 				&:focus,
 				&:visited {
 					text-decoration: none;
+					cursor: url('/images/cursor-arrow.png'), auto;	
 				}
 			h3 {
 				margin-bottom: 0;

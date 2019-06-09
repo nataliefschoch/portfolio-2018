@@ -102,13 +102,13 @@
     <section class='work-footer'>
       <div class='container'>
         <div class='row'>
+          <?php include("_more_work.php"); ?>
           <div class='col-md-6 padding-bottom-15px'>
             <p class='bold'>Special thanks to:</p>
             <p>Lindsay Grizzard, Engineering</p>
           </div>
           <div class='col-md-6'>
           </div>
-          <?php include("_more_work.php"); ?>
         </div>
       </div>
     </section>
