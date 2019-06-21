@@ -17,7 +17,38 @@
   <a name='work-anchor'></a>
   <section class='work-section'>
     <div class='container'>
-      
+<!-- 
+    <div class='work-row row'>
+        <div class='work-col col-md-6'>
+          <a class='work' href='dipsea.php'>
+            <div class='work-img reveal load-hidden'>
+              <img src='images/img-work-gusto-rebrand.jpg', class='img-responsive', alt='Dipsea Onboarding', title='Dipsea Onboarding'/>
+            </div>
+            <div class='work-overlay'>
+            <div class='work-text'>
+              <h2 class='bold'>Gusto rebrand</h2>
+              <h3>Creating a high-touch, personalized onboarding flow for the Dipsea app.</h3>
+              <h3 class='categories'>UX &mdash; Visual design</h3>
+          </div>
+            </div>
+          </a>
+        </div>
+        <div class='work-col col-md-6'>
+          <a class='work' href='gusto-careers.php'>
+            <div class='work-img reveal load-hidden'>
+              <img src='images/img-work-gcorp-redesign.jpg', class='img-responsive', alt='Gusto Careers', title='Gusto Careers'/>
+            </div>
+            <div class='work-overlay'>
+              <div class='work-text'>
+                <h2 class='bold'>Gusto.com redesign</h2>
+                <h3>Redesigning Gusto's careers page to showcase our people, culture, and values.</h3>
+                <h3 class='categories'>Art direction &mdash; Visual design</h3>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div> -->
+
     <div class='work-row row'>
         <div class='work-col col-md-6'>
           <a class='work' href='dipsea.php'>
@@ -50,6 +81,20 @@
       </div>
             
       <div class='work-row row'>
+      <div class='work-col col-md-6'>
+          <a class='work' href='fb.php'>
+            <div class='work-img reveal'>
+              <img src='images/img-work-fb.jpg', class='img-responsive', alt='Miscellaneous', title='Miscellaneous'/>
+            </div>
+            <div class='work-overlay'>
+              <div class='work-text'>
+                <h2 class='bold'>F&B: Voices from the Kitchen</h2>
+                <h3>Creating the brochure for a La Cocina live magazine event put on by F&B: Voices from the Kitchen.</h3>
+                <h3 class='categories'>Art direction &amp; Print</h3>
+              </div>
+            </div>
+          </a>
+        </div>
         <div class='work-col col-md-6'>
           <a class='work' href='gusto-comms.php'>
             <div class='work-img reveal'>
@@ -60,20 +105,6 @@
                 <h2 class='bold'>Gusto internal projects</h2>
                 <h3>Highlighting internal projects from the Brand Studio team.</h3>
                 <h3 class='categories'>Art Direction &mdash; Print</h3>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class='work-col col-md-6'>
-          <a class='work'>
-            <div class='work-img reveal'>
-              <img src='images/img-work-fb.jpg', class='img-responsive', alt='Miscellaneous', title='Miscellaneous'/>
-            </div>
-            <div class='work-overlay'>
-              <div class='work-text'>
-                <h2 class='bold'>F&B: Voices from the Kitchen</h2>
-                <h3>Creating the brochure for a La Cocina live magazine event put on by F&B: Voices from the Kitchen.</h3>
-                <h3 class='categories'>Coming soon!</h3>
               </div>
             </div>
           </a>
@@ -99,7 +130,7 @@
         <div class='work-col col-md-6'>
           <a class='work'href='misc.php'>
             <div class='work-img reveal'>
-              <img src='images/img-work-misc.jpg', class='img-responsive', alt='Wordsmith Chrome Extension', title='Wordsmith Chrome Extension'/>
+              <img src='images/img-work-ex-libris.gif', class='img-responsive', alt='Wordsmith Chrome Extension', title='Wordsmith Chrome Extension'/>
             </div>
             <div class='work-overlay'>
               <div class='work-text'>

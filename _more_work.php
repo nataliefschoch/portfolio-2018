@@ -15,11 +15,11 @@
 			Gusto Brand Design &mdash; Print &amp; graphic design
 		</a>
 	</p>
-	<!-- <p>
-		<a href='f-and-b.php'>
+	<p>
+		<a href='fb.php'>
 			F&B: Voices from the Kitchen &mdash; Print
 		</a>
-	</p> -->
+	</p>
 	<p>
 		<a href='wordsmith.php'>
 			Wordsmith &mdash; Design &amp; development
