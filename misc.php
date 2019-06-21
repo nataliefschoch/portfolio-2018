@@ -8,7 +8,7 @@
           <div class='col-md-8'>
             <div>
               <p>
-                <span class='bold'>Miscellaneous 2016 - 2018</span>
+                <span class='bold'>Passion projects 2016 - 2018</span>
                 <span class='block'>Print and digital illustration</span>
               </p>              
             </div>
@@ -17,6 +17,27 @@
       </div>
     </section>
     
+    <section>
+      <div class='container'>
+        <div class='row'>
+          <div class='col-md-8 padding-bottom-25px'>
+            <p class='bold'>Ex Libris stickers</p>
+            <p>
+            </p>
+          </div>
+          <div class='col-md-12 margin-bottom-50px'>
+            <img src='../images/img-work-dipsea-two-screens.jpg', class='img-responsive reveal', alt='Dipsea App Onboarding', title='Dipsea App Onboarding'>
+          </div>
+          <div class='col-md-12 margin-bottom-50px'>
+            <img src='../images/img-work-dipsea-five-screens.jpg', class='img-responsive reveal', alt='Dipsea App Onboarding', title='Dipsea App Onboarding'>
+          </div>
+          <div class='col-md-12 margin-bottom-50px'>
+            <img src='../images/img-work-dipsea-one-phone.jpg', class='img-responsive reveal', alt='Dipsea App Onboarding', title='Dipsea App Onboarding'>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section>
       <div class='container'>
         <div class='row'>

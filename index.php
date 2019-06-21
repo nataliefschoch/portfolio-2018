@@ -134,7 +134,7 @@
             </div>
             <div class='work-overlay'>
               <div class='work-text'>
-                <h2 class='bold'>Miscellanous projects</h2>
+                <h2 class='bold'>Passion projects</h2>
                 <h3>Showcasing design projects worked on between 2017 - 2019.</h3>
                 <h3 class='categories'>Digital illustrations &mdash; Print</h3>
               </div>
