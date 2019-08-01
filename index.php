@@ -17,37 +17,37 @@
   <a name='work-anchor'></a>
   <section class='work-section'>
     <div class='container'>
-<!-- 
+
     <div class='work-row row'>
         <div class='work-col col-md-6'>
-          <a class='work' href='dipsea.php'>
+          <a class='work inactive'>
             <div class='work-img reveal load-hidden'>
-              <img src='images/img-work-gusto-rebrand.jpg', class='img-responsive', alt='Dipsea Onboarding', title='Dipsea Onboarding'/>
+              <img src='images/img-work-gusto-rebrand.jpg', class='img-responsive', alt='Gusto Rebrand 2019', title='Gusto Rebrand 2019'/>
             </div>
             <div class='work-overlay'>
             <div class='work-text'>
               <h2 class='bold'>Gusto rebrand</h2>
-              <h3>Creating a high-touch, personalized onboarding flow for the Dipsea app.</h3>
-              <h3 class='categories'>UX &mdash; Visual design</h3>
+              <h3>Reimaging Gusto's brand and visual system to reflect it's human-centered strategy and warm and sophisitcated personality.</h3>
+              <h3 class='categories'>Case study coming soon!</h3>
           </div>
             </div>
           </a>
         </div>
         <div class='work-col col-md-6'>
-          <a class='work' href='gusto-careers.php'>
+          <a class='work inactive'>
             <div class='work-img reveal load-hidden'>
               <img src='images/img-work-gcorp-redesign.jpg', class='img-responsive', alt='Gusto Careers', title='Gusto Careers'/>
             </div>
             <div class='work-overlay'>
               <div class='work-text'>
                 <h2 class='bold'>Gusto.com redesign</h2>
-                <h3>Redesigning Gusto's careers page to showcase our people, culture, and values.</h3>
-                <h3 class='categories'>Art direction &mdash; Visual design</h3>
+                <h3>Redesigning Gusto.com to reflect the companys new brand and product positioning.</h3>
+                <h3 class='categories'>Case study coming soon!</h3>
               </div>
             </div>
           </a>
         </div>
-      </div> -->
+      </div>
 
     <div class='work-row row'>
         <div class='work-col col-md-6'>
@@ -103,7 +103,7 @@
             <div class='work-overlay'>
               <div class='work-text'>
                 <h2 class='bold'>Gusto internal projects</h2>
-                <h3>Highlighting internal projects from the Brand Studio team.</h3>
+                <h3>Highlighting internal projects from<br>the Brand Studio team.</h3>
                 <h3 class='categories'>Art Direction &mdash; Print</h3>
               </div>
             </div>
@@ -130,12 +130,14 @@
         <div class='work-col col-md-6'>
           <a class='work'href='misc.php'>
             <div class='work-img reveal'>
-              <img src='images/img-work-ex-libris.gif', class='img-responsive', alt='Wordsmith Chrome Extension', title='Wordsmith Chrome Extension'/>
+              <img src='images/img-work-ex-libris.jpg', class='img-responsive', alt='Wordsmith Chrome Extension', title='Wordsmith Chrome Extension'/>
             </div>
             <div class='work-overlay'>
               <div class='work-text'>
-                <h2 class='bold'>Passion projects</h2>
-                <h3>Showcasing design projects worked on between 2017 - 2019.</h3>
+                <h2 class='bold'>Ex Libris</h2>
+                <h3>
+                A passion project designing book plaques.
+                </h3>
                 <h3 class='categories'>Digital illustrations &mdash; Print</h3>
               </div>
             </div>

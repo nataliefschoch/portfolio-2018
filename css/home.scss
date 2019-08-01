@@ -30,13 +30,14 @@ section.work-section {
 			margin-bottom: 40px;
 			text-decoration: none;
 			position: relative;
-				&:hover,
-				&:active,
-				&:focus,
-				&:visited {
-					text-decoration: none;
-					cursor: url('/images/cursor-arrow.png'), auto;	
-				}
+			&:hover,
+			&:active,
+			&:focus,
+			&:visited {
+				text-decoration: none;
+				// cursor: url('/images/cursor-arrow.png'), auto;	
+			}
+
 			h3 {
 				margin-bottom: 0;
 			}

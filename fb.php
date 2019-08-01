@@ -12,7 +12,7 @@
                 <span class='block'>Art direction &amp; Print</span>
               </p>              
               <p class='padding-top-15px'>
-              F&B: Voices from the Kitchen is a storytelling project created by La Cocina that seeks to share the voices and stories from the cooks and kitchens that are less often heard. The event is a twice-yearly performance that revolves around (and includes) food and drink on a singular topic or theme.
+                F&B: Voices from the Kitchen is a storytelling project created by La Cocina that seeks to share the voices and stories from the cooks and kitchens that are less often heard. The event is a twice-yearly performance that revolves around (and includes) food and drink on a singular topic or theme.
               </p>
               <p>
               I worked with the F&B team to design a brochure inspired by the event's theme &mdash; Recipes. 
@@ -31,13 +31,16 @@
       <div class='container'>
         <div class='row'>
           <div class='col-md-12 margin-bottom-50px'>
-            <img src='../images/img-work-dipsea-two-screens.jpg', class='img-responsive reveal', alt='Dipsea App Onboarding', title='Dipsea App Onboarding'>
+            <img src='../images/img-work-fb-1.jpg', class='img-responsive reveal', alt='Dipsea App Onboarding', title='Dipsea App Onboarding'>
           </div>
           <div class='col-md-12 margin-bottom-50px'>
-            <img src='../images/img-work-dipsea-five-screens.jpg', class='img-responsive reveal', alt='Dipsea App Onboarding', title='Dipsea App Onboarding'>
+            <img src='../images/img-work-fb-2.jpg', class='img-responsive reveal', alt='Dipsea App Onboarding', title='Dipsea App Onboarding'>
           </div>
           <div class='col-md-12 margin-bottom-50px'>
-            <img src='../images/img-work-dipsea-one-phone.jpg', class='img-responsive reveal', alt='Dipsea App Onboarding', title='Dipsea App Onboarding'>
+            <img src='../images/img-work-fb-3.jpg', class='img-responsive reveal', alt='Dipsea App Onboarding', title='Dipsea App Onboarding'>
+          </div>
+          <div class='col-md-12 margin-bottom-50px'>
+            <img src='../images/fb-gif.gif', class='img-responsive reveal', alt='Dipsea App Onboarding', title='Dipsea App Onboarding'>
           </div>
         </div>
       </div>

@@ -27,7 +27,7 @@
 	</p>
 	<p>
 		<a href='misc.php'>
-			Passion projects &mdash; Print &amp; visual design
+			Ex Libris &mdash; Print &amp; visual design
 		</a>
 	</p>
 </div>

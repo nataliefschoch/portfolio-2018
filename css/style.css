@@ -1471,8 +1471,7 @@ section.work-section {
     text-decoration: none;
     position: relative; }
     section.work-section .work-row a.work:hover, section.work-section .work-row a.work:active, section.work-section .work-row a.work:focus, section.work-section .work-row a.work:visited {
-      text-decoration: none;
-      cursor: url("/images/cursor-arrow.png"), auto; }
+      text-decoration: none; }
     section.work-section .work-row a.work h3 {
       margin-bottom: 0; }
     section.work-section .work-row a.work p {
